@@ -1,9 +1,9 @@
-#WordPress API Code Hints for Dreamweaver
+= WordPress API Code Hints for Dreamweaver =
 
-= Introduction =
+== Introduction ==
 
 This project has not yet been released.
 
-= Details =
+== Details ==
 
 Forthcoming...
