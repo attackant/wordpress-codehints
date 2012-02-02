@@ -1,7 +1,7 @@
 <!--
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
-	Version: 0.2
+	Version: 0.2.1
 	WordPress API version: 3.3.1
 	Copyright: (C)2012 Mindshare Studios, Inc.
 	Contributors: 
@@ -16,6 +16,7 @@
 		PLEASE HELP US MAKE THIS BETTER BY REPORTING BUGS! THX!
 	---------------------------------------------------------------
 	Changelog:
+		0.2.1 - bugfix added missing DOCTYPE attributes to menu tags
 		0.2 ~ first release includes API up to WordPress API 3.3.1, ready for external testing, first commit
 		0.1 ~ first release includes API up to WordPress API 3.3
 	
@@ -858,7 +859,7 @@
 		<menuitem label="TEMPLATEPATH" value="PLATEPATH" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
 	
-	<menu pattern="add" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="add" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="addslashes_gpc" value="slashes_gpc(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="add_action" value="_action(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="add_blog_option" value="_blog_option(" icon="shared/mm/images/hintFunction.png" />
@@ -885,59 +886,59 @@
 		<menuitem label="add_user_to_blog" value="_user_to_blog(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="add_utility_page" value="_utility_page(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="adm" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="adm" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="admin_notice_feed" value="in_notice_feed(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="admin_url" value="in_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="all" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="all" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="allowed_tags" value="owed_tags(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ant" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ant" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="antispambot" value="ispambot(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="app" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="app" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="apply_filters" value="ly_filters(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="att" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="att" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="attribute_escape" value="ribute_escape(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="aut" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="aut" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="author_can" value="hor_can(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="auth_redirect" value="h_redirect(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="avo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="avo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="avoid_blog_page_permalink_collision" value="id_blog_page_permalink_collision(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="bac" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="bac" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="backslashit" value="kslashit(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="bal" additionaldismisschars="!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="bal" additionaldismisschars="!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="balanceTags" value="anceTags(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="blo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="blo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="bloginfo" value="ginfo(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="bloginfo_rss" value="ginfo_rss(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="bod" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="bod" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="body_class" value="y_class(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="boo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="boo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="bool_from_yn" value="l_from_yn(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cac" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cac" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="cache_javascript_headers" value="he_javascript_headers(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cal" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cal" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="calendar_week_mod" value="endar_week_mod(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="can" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="can" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="cancel_comment_reply_link" value="cel_comment_reply_link(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cat" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cat" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="category_description" value="egory_description(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="cat_is_ancestor_of" value="_is_ancestor_of(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="che" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="che" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="check_admin_referer" value="ck_admin_referer(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="check_ajax_referer" value="ck_ajax_referer(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="check_comment" value="ck_comment(" icon="shared/mm/images/hintFunction.png" />
@@ -945,14 +946,14 @@
 		<menuitem label="check_upload_mimes" value="ck_upload_mimes(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="check_upload_size" value="ck_upload_size(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cho" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cho" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="choose_primary_blog" value="ose_primary_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cle" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cle" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="clean_pre" value="an_pre(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="clean_url" value="an_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="com" additionaldismisschars="ABCEFGHJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="com" additionaldismisschars="ABCEFGHJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="comments_link" value="ments_link()" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="comments_number" value="ments_number(" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="comments_open" value="ments_open()" icon="shared/mm/images/hintFunction.png"/>
@@ -983,51 +984,51 @@
 		<menuitem label="comment_time" value="ment_time(" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="comment_type" value="ment_type()" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
-	<menu pattern="con" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="con" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="confirm_delete_users" value="firm_delete_users(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="content_url" value="tent_url(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="convert_chars" value="vert_chars(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="convert_smilies" value="vert_smilies(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cou" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cou" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="count_many_users_posts" value="nt_many_users_posts(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="count_users" value="nt_users(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="count_user_posts" value="nt_user_posts(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="crea" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="crea" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="create_empty_blog" value="ate_empty_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="cur" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="cur" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="current_filter" value="rent_filter(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="current_theme_supports" value="rent_theme_supports(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="current_time" value="rent_time(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="current_user_can" value="rent_user_can(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="current_user_can_for_blog" value="rent_user_can_for_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="das" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="das" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="dashboard_quota" value="hboard_quota(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="dat" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="dat" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="date_i18n" value="e_i18n(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="del" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="del" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="delete_blog_option" value="ete_blog_option(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="delete_get_calendar_cache" value="ete_get_calendar_cache(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="delete_option" value="ete_option(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="delete_post_meta" value="ete_post_meta(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="delete_user_meta" value="ete_user_meta(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="did" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="did" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="did_action" value="_action(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="dis" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="dis" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="discover_pingback_server_uri" value="cover_pingback_server_uri(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="display_space_usage" value="play_space_usage(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="dom" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="dom" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="domain_exists" value="ain_exists(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="do_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="do_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="do_action" value="action(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="do_action_ref_array" value="action_ref_array(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="do_all_pings" value="all_pings(" icon="shared/mm/images/hintFunction.png" />
@@ -1042,39 +1043,39 @@
 		<menuitem label="do_shortcode_tag" value="shortcode_tag(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="do_trackbacks" value="trackbacks(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="dyn" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="dyn" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="dynamic_sidebar" value="amic_sidebar(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="edi" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="edi" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="edit_bookmark_link" value="t_bookmark_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="edit_comment_link" value="t_comment_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="edit_post_link" value="t_post_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="edit_tag_link" value="t_tag_link(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ema" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ema" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="email_exists" value="il_exists(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ent" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ent" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="ent2ncr" value="2ncr(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="esc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="esc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="esc_attr" value="_attr(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="esc_html" value="_html(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="esc_js" value="_js(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="esc_textarea" value="_textarea(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="esc_url" value="_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="fet" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="fet" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="fetch_feed" value="ch_feed(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="fil" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="fil" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="filter_SSL" value="ter_SSL(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="fix" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="fix" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="fix_import_form_size" value="_import_form_size(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="fix_phpmailer_messageid" value="_phpmailer_messageid(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="for" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="for" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="force_balance_tags" value="ce_balance_tags(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="force_ssl_content" value="ce_ssl_content(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="format_code_lang" value="mat_code_lang(" icon="shared/mm/images/hintFunction.png" />
@@ -1082,13 +1083,13 @@
 		<menuitem label="format_to_post" value="mat_to_post(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="form_option" value="m_option(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="fun" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="fun" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="funky_javascript_fix" value="ky_javascript_fix(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="gen" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="gen" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="generic_ping" value="eric_ping(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="get" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="get" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="get_404_template" value="_404_template(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_active_blog_for_user" value="_active_blog_for_user(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_adjacent_post" value="_adjacent_post(" icon="shared/mm/images/hintFunction.png" />
@@ -1279,52 +1280,52 @@
 		<menuitem label="get_weekstartend" value="_weekstartend(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_year_link" value="_year_link(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="glo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="glo" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="global_terms" value="bal_terms(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="gra" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="gra" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="grant_super_admin" value="nt_super_admin(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="has" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="has" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="has_action" value="_action(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="has_filter" value="_filter(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="has_nav_menu" value="_nav_menu(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="has_post_thumbnail" value="_post_thumbnail(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="has_tag" value="_tag(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="hav" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="hav" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="have_comments" value="e_comments(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="hea" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="hea" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="header_image" value="der_image(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="header_textcolor" value="der_textcolor(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="hom" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="hom" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="home_url" value="e_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="htm" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="htm" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="htmlentities2" value="lentities2(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="hum" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="hum" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="human_time_diff" value="an_time_diff(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="inc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="inc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="includes_url" value="ludes_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ins" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ins" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="insert_blog" value="ert_blog(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="insert_with_markers" value="ert_with_markers(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="install_blog" value="tall_blog(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="install_blog_defaults" value="tall_blog_defaults(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="in_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="in_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="in_category" value="category(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="iso" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="iso" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="iso8601_timezone_to_offset" value="8601_timezone_to_offset(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="iso8601_to_datetime" value="8601_to_datetime(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="is_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="is_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="is_404" value="404(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_admin" value="admin(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_archive" value="archive(" icon="shared/mm/images/hintFunction.png" />
@@ -1373,35 +1374,35 @@
 		<menuitem label="is_user_spammy" value="user_spammy(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_year" value="year(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="loa" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="loa" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="load_template" value="d_template(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="loc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="loc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="locale_stylesheet" value="ale_stylesheet(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="locate_template" value="ate_template(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="log" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="log" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="log_app" value="_app(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="mak" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="mak" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="make_clickable" value="e_clickable(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="map" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="map" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="map_meta_cap" value="_meta_cap(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="may" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="may" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="maybe_add_existing_user_to_blog" value="be_add_existing_user_to_blog(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="maybe_redirect_404" value="be_redirect_404(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="maybe_serialize" value="be_serialize(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="maybe_unserialize" value="be_unserialize(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="men" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="men" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="menu_page_url" value="u_page_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="mer" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="mer" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="merge_filters" value="ge_filters(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ms_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ms_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="ms_cookie_constants" value="cookie_constants(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="ms_deprecated_blogs_file" value="deprecated_blogs_file(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="ms_file_constants" value="file_constants(" icon="shared/mm/images/hintFunction.png" />
@@ -1410,46 +1411,46 @@
 		<menuitem label="ms_subdomain_constants" value="subdomain_constants(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="ms_upload_constants" value="upload_constants(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="mu_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="mu_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="mu_dropdown_languages" value="dropdown_languages(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="mys" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="mys" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="mysql2date" value="ql2date(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="new" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="new" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="newblog_notify_siteadmin" value="blog_notify_siteadmin(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="new_user_email_admin_notice" value="_user_email_admin_notice(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="nex" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="nex" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="next_comments_link" value="t_comments_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="next_image_link" value="t_image_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="next_posts_link" value="t_posts_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="next_post_link" value="t_post_link(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="noc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="noc" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="nocache_headers" value="ache_headers(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="pag" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="pag" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="page_uri_index" value="e_uri_index(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="paginate_comments_links" value="inate_comments_links(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="per" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="per" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="permalink_anchor" value="malink_anchor(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="permalink_comments_rss" value="malink_comments_rss(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="permalink_single_rss" value="malink_single_rss(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="pin" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="pin" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="pingback" value="gback(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="pings_open" value="gs_open(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="plu" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="plu" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="plugins_url" value="gins_url(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="plugin_basename" value="gin_basename(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="pop" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="pop" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="popuplinks" value="uplinks(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="pos" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="pos" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="posts_nav_link" value="ts_nav_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="post_class" value="t_class(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="post_comments_feed_link" value="t_comments_feed_link(" icon="shared/mm/images/hintFunction.png" />
@@ -1458,7 +1459,7 @@
 		<menuitem label="post_type_archive_title" value="t_type_archive_title(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="post_type_supports" value="t_type_supports(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="pre" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="pre" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="preview_theme" value="view_theme(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="preview_theme_ob_filter" value="view_theme_ob_filter(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="preview_theme_ob_filter_callback" value="view_theme_ob_filter_callback(" icon="shared/mm/images/hintFunction.png" />
@@ -1467,22 +1468,22 @@
 		<menuitem label="previous_posts_link" value="vious_posts_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="previous_post_link" value="vious_post_link(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="pri" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="pri" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="privacy_ping_filter" value="vacy_ping_filter(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="rec" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="rec" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="recurse_dirsize" value="urse_dirsize(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="red" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="red" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="redirect_mu_dashboard" value="irect_mu_dashboard(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="redirect_this_site" value="irect_this_site(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="redirect_user_to_blog" value="irect_user_to_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ref" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ref" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="refresh_blog_details" value="resh_blog_details(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="refresh_user_details" value="resh_user_details(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="reg" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="reg" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="register_activation_hook" value="ister_activation_hook(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="register_deactivation_hook" value="ister_deactivation_hook(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="register_nav_menu" value="ister_nav_menu(" icon="shared/mm/images/hintFunction.png" />
@@ -1493,7 +1494,7 @@
 		<menuitem label="register_taxonomy_for_object_type" value="ister_taxonomy_for_object_type(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="register_theme_directory" value="ister_theme_directory(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="rem" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="rem" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="remove_accents" value="ove_accents(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="remove_action" value="ove_action(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="remove_all_actions" value="ove_all_actions(" icon="shared/mm/images/hintFunction.png" />
@@ -1510,19 +1511,19 @@
 		<menuitem label="remove_theme_mods" value="ove_theme_mods(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="remove_user_from_blog" value="ove_user_from_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="req" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="req" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="require_if_theme_supports" value="uire_if_theme_supports(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="res" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="res" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="restore_current_blog" value="tore_current_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="rev" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="rev" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="revoke_super_admin" value="oke_super_admin(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="rss" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="rss" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="rss_enclosure" value="_enclosure(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="san" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="san" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="sanitize_comment_cookies" value="itize_comment_cookies(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="sanitize_email" value="itize_email(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="sanitize_file_name" value="itize_file_name(" icon="shared/mm/images/hintFunction.png" />
@@ -1530,75 +1531,75 @@
 		<menuitem label="sanitize_title_with_dashes" value="itize_title_with_dashes(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="sanitize_user" value="itize_user(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sea" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sea" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="search_theme_directories" value="rch_theme_directories(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sec" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sec" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="secret_salt_warning" value="ret_salt_warning(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="see" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="see" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="seems_utf8" value="ms_utf8(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sen" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sen" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="send_confirmation_on_profile_email" value="d_confirmation_on_profile_email(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="set" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="set" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="settings_fields" value="tings_fields(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="set_current_user" value="_current_user(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="set_post_type" value="_post_type(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="set_theme_mod" value="_theme_mod(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sho" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sho" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="shortcode_atts" value="rtcode_atts(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="shortcode_parse_atts" value="rtcode_parse_atts(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="show_post_thumbnail_warning" value="w_post_thumbnail_warning(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sig" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sig" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="signup_nonce_check" value="nup_nonce_check(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="signup_nonce_fields" value="nup_nonce_fields(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sin" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sin" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="single_cat_title" value="gle_cat_title(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="single_month_title" value="gle_month_title(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="single_post_title" value="gle_post_title(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="single_tag_title" value="gle_tag_title(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="single_term_title" value="gle_term_title(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sit" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sit" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="site_admin_notice" value="e_admin_notice(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="site_url" value="e_url(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="spa" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="spa" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="spawn_cron" value="wn_cron(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sta" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sta" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="status_header" value="tus_header(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="sti" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="sti" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="sticky_class" value="cky_class(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="str" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="str" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="stripslashes_deep" value="ipslashes_deep(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="strip_shortcodes" value="ip_shortcodes(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="swi" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="swi" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="switch_theme" value="tch_theme(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="switch_to_blog" value="tch_to_blog(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="syn" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="syn" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="sync_category_tag_slugs" value="c_category_tag_slugs(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="tag" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="tag" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="tag_description" value="_description(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="tax" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="tax" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="taxonomy_exists" value="onomy_exists(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="ter" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="ter" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="term_description" value="m_description(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="term_exists" value="m_exists(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="the" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="the" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="the_attachment_link" value="_attachment_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="the_author" value="_author()" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="the_author_aim" value="_author_aim()" icon="shared/mm/images/hintFunction.png"/>
@@ -1641,19 +1642,19 @@
 		<menuitem label="the_title_attribute" value="_title_attribute(" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="the_title_rss" value="_title_rss()'" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
-	<menu pattern="tra" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="tra" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="trackback" value="ckback(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="trackback_rdf" value="ckback_rdf()" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="trackback_url" value="ckback_url(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="trackback_url_list" value="ckback_url_list(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="trailingslashit" value="ilingslashit(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="un" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="un" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="unregister_nav_menu" value="egister_nav_menu(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="unregister_setting" value="egister_setting(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="untrailingslashit" value="untrailingslashit(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="upd" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="upd" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="update_archived" value="ate_archived(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="update_attached_file" value="ate_attached_file(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="update_blog_details" value="ate_blog_details(" icon="shared/mm/images/hintFunction.png" />
@@ -1668,45 +1669,45 @@
 		<menuitem label="update_user_option" value="ate_user_option(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="update_user_status" value="ate_user_status(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="upl" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="upl" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="upload_is_file_too_big" value="oad_is_file_too_big(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="upload_is_user_over_quota" value="oad_is_user_over_quota(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="upload_size_limit_filter" value="oad_size_limit_filter(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="upload_space_setting" value="oad_space_setting(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="url" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="url" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="url_shorten" value="_shorten(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="use" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="use" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="username_exists" value="rname_exists(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="users_can_register_signup_filter" value="rs_can_register_signup_filter(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="user_can" value="r_can(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="user_pass_ok" value="r_pass_ok(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="user_trailingslashit" value="r_trailingslashit(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="utf" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="utf" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="utf8_uri_encode" value="8_uri_encode(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="val" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="val" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="validate_current_theme" value="idate_current_theme(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="validate_username" value="idate_username(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wal" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wal" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="walk_nav_menu_tree" value="k_nav_menu_tree(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="web" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="web" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="weblog_ping" value="log_ping(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wel" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wel" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="welcome_user_msg_filter" value="come_user_msg_filter(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wor" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wor" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wordpressmu_wp_mail_from" value="dpressmu_wp_mail_from(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wpa" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wpa" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wpautop" value="utop(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wpm" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wpm" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wpmu_activate_signup" value="u_activate_signup(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wpmu_admin_redirect_add_updated_param" value="u_admin_redirect_add_updated_param(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wpmu_create_blog" value="u_create_blog(" icon="shared/mm/images/hintFunction.png" />
@@ -1726,10 +1727,10 @@
 		<menuitem label="wpmu_welcome_notification" value="u_welcome_notification(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wpmu_welcome_user_notification" value="u_welcome_user_notification(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wpt" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wpt" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wptexturize" value="exturize(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="wp_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wp_" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wp_ajaxurl" value="ajaxurl(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_allow_comment" value="allow_comment(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_attachment_is_image" value="attachment_is_image(" icon="shared/mm/images/hintFunction.png" />
@@ -1884,19 +1885,18 @@
 		<menuitem label="wp_upload_dir" value="upload_dir(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_verify_nonce" value="verify_nonce(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="xml" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="xml" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="xmlrpc_getpostcategory" value="rpc_getpostcategory(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="xmlrpc_getposttitle" value="rpc_getposttitle(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="xmlrpc_removepostdata" value="rpc_removepostdata(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="zer" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="zer" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="zeroise" value="oise(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="_ad" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="_ad" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="_admin_notice_multisite_activate_plugins_page" value="min_notice_multisite_activate_plugins_page(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	
-	<!-- Advanced menus -->	
 	<menu pattern="bloginfo(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="admin_email" value="admin_email')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="atom_url" value="atom_url')" icon="shared/mm/images/hintFunction.png"/>
