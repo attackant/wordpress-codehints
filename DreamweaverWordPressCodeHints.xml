@@ -1,22 +1,24 @@
 <!--
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
+	
 	Version: 0.2.2
-	Revision: $Revision$
-	Modified: $Date$
-	ID: $Id$
-	WordPress API version: $wpapi$
-	Copyright: (C)2012 Mindshare Studios, Inc.
-	Contributors: $Author$
+	$Revision: 13 $
+	$Date: 2012-02-02 11:07:59 -0700 (Thu, 02 Feb 2012) $
+	$Id: DreamweaverWordPressCodeHints.xml 13 2012-02-02 18:07:59Z info@mindsharestudios.com $
+	$WP_API$
+	Copyright: Mindshare Studios, Inc.
+	
+	Contributors:
 		Damian Taggart
 		Bryce Corkins
 		http://mind.sh/are/
-	Project Home: http://code.google.com/p/wordpress-codehints/ (latest version available here)
-	Repository: $HeadURL$
-	Support:
-		http://code.google.com/p/wordpress-codehints/issues/list
-		(report bugs, ommisions, etc)
-		PLEASE HELP US MAKE THIS BETTER BY REPORTING BUGS! THX!
+	
+	Project Home: http://code.google.com/p/wordpress-codehints/
+	Donate: http://mind.sh/are/donate/
+	$HeadURL: https://wordpress-codehints.googlecode.com/svn/trunk/DreamweaverWordPressCodeHints.xml $
+	Support/bugs: http://code.google.com/p/wordpress-codehints/issues/list
+
 	---------------------------------------------------------------
 	Changelog:
 		0.2.2 - bloginfo bugfix, combined all "wp..." menus into one
@@ -77,9 +79,9 @@
 	---------------------------------------------------------------
 -->
 <codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menugroup MMString:name="codehints_wordpressapi" id="CodeHints_WordPressAPI" name="WordPress Code Hints (API $wpapi$)" enabled="true">
+<menugroup MMString:name="codehints_wordpressapi" id="CodeHints_WordPressAPI" name="WordPress Code Hints ($WP_API$)" enabled="true">
 	<description>
-		<![CDATA[ WordPress Code Hinting for Dreamweaver (WordPress API $wpapi$) ]]>
+		<![CDATA[ WordPress Code Hinting for Dreamweaver ($WP_API$) ]]>
 	</description>
 
 	<function pattern="addslashes_gpc($gpc)" DOCTYPES="PHP_MySQL" casesensitive="true" />
