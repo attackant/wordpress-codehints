@@ -1,0 +1,3 @@
+#WordPress is the world's leading CMS/blog platform. 
+
+Learn more: http://wordpress.org
