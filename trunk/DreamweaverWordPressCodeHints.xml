@@ -1605,7 +1605,7 @@
 		<menuitem label="term_description" value="m_description(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="term_exists" value="m_exists(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="the" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
+	<menu pattern="the" additionaldismisschars="ABCEFGHJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="the_attachment_link" value="_attachment_link(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="the_author" value="_author()" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="the_author_aim" value="_author_aim()" icon="shared/mm/images/hintFunction.png"/>
