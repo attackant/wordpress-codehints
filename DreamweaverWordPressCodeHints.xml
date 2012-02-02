@@ -203,10 +203,10 @@
 	<function pattern="do_shortcode_tag($m)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="do_trackbacks($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="dynamic_sidebar($index)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_bookmark_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_comment_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_post_link($id, $context)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_tag_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_bookmark_link($link, $before, $after, $bookmark)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_comment_link($link, $before, $after)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_post_link($link, $before, $after, $id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_tag_link($link, $before, $after, $tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="email_exists($email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="ent2ncr($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="esc_attr($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -225,8 +225,8 @@
 	<function pattern="format_to_edit($content, $richedit)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="format_to_post($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="form_option($option)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="Function Reference/add_cap($role, $cap, $grant)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="Function Reference/remove_cap($role, $cap)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_cap($role, $cap, $grant)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_cap($role, $cap)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="funky_javascript_fix($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="generic_ping($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_404_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
