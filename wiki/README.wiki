@@ -6,8 +6,6 @@
 This file provides code hinting (auto-completion) for the WordPress API in Dreamweaver's code view.
 
 ==Usage:==
-This file provides code hinting (auto-completion) for the
-WordPress API in Dreamweaver's code view.
 
 ===Step 1===
 Copy this XML file into your Dreamweaver configuration
