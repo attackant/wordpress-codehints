@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	
-	Version: 0.2.2
+	Version: 0.2.3
 	$Revision$
 	$Date$
 	$Id$
@@ -20,6 +20,7 @@
 
 	---------------------------------------------------------------
 	Changelog:
+		0.2.3 - another bloginfo bugfix
 		0.2.2 - bloginfo bugfix, combined all "wp..." menus into one
 		0.2.1 - bugfix added missing DOCTYPE attributes to menu tags
 		0.2 ~ first release includes API up to WordPress API 3.3.1, ready for external testing, first commit
@@ -118,7 +119,7 @@
 	<function pattern="avoid_blog_page_permalink_collision()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="backslashit($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="balanceTags($text, $force)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="bloginfo()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="bloginfo($show)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="bloginfo_rss($show)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="body_class($class)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="bool_from_yn($yn)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -1117,8 +1118,8 @@
 		<menuitem label="get_blogaddress_by_domain" value="_blogaddress_by_domain(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_blogaddress_by_id" value="_blogaddress_by_id(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_blogaddress_by_name" value="_blogaddress_by_name(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="get_bloginfo" value="_bloginfo(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="get_bloginfo_rss" value="_bloginfo_rss(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="get_bloginfo" value="_bloginfo('" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="get_bloginfo_rss" value="_bloginfo_rss('" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_blogs_of_user" value="_blogs_of_user(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_blog_count" value="_blog_count(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_blog_details" value="_blog_details(" icon="shared/mm/images/hintFunction.png" />
@@ -1898,7 +1899,7 @@
 		<menuitem label="_admin_notice_multisite_activate_plugins_page" value="min_notice_multisite_activate_plugins_page(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	
-	<menu pattern="bloginfo(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="bloginfo('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="admin_email" value="admin_email')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="atom_url" value="atom_url')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="charset" value="charset')" icon="shared/mm/images/hintFunction.png"/>
@@ -1918,7 +1919,7 @@
 		<menuitem label="version" value="version')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wpurl" value="wpurl')" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
-	<menu pattern="bloginfo_rss(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="bloginfo_rss('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="admin_email" value="admin_email')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="atom_url" value="atom_url')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="charset" value="charset')" icon="shared/mm/images/hintFunction.png"/>
@@ -1937,7 +1938,7 @@
 		<menuitem label="version" value="version')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wpurl" value="wpurl')" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
-	<menu pattern="get_bloginfo(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="get_bloginfo('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="admin_email" value="admin_email')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="atom_url" value="atom_url')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="charset" value="charset')" icon="shared/mm/images/hintFunction.png"/>
@@ -1958,7 +1959,7 @@
 		<menuitem label="version" value="version')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wpurl" value="wpurl')" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
-	<menu pattern="get_bloginfo_rss(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="get_bloginfo_rss('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="admin_email" value="admin_email')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="atom_url" value="atom_url')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="charset" value="charset')" icon="shared/mm/images/hintFunction.png"/>
