@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	Version: 0.2
-	WordPress API version: 3.3
+	WordPress API version: 3.3.1
 	Copyright: (C)2012 Mindshare Studios, Inc.
 	Contributors: 
 		Damian Taggart
@@ -74,782 +74,782 @@
 <codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
 <menugroup MMString:name="codehints_wordpressapi" id="CodeHints_WordPressAPI" name="WordPress Code Hints (API 3.3.1)" enabled="true">
 	<description>
-		<![CDATA[ WordPress Code Hinting for Dreamweaver v0.1 (WordPress API 3.3.1) ]]>
+		<![CDATA[ WordPress Code Hinting for Dreamweaver (WordPress API 3.3.1) ]]>
 	</description>
 
-	<function pattern="addslashes_gpc($gpc)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_action($tag, $function_to_add, $priority, $accepted_args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_blog_option($id, $key, $value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_custom_background($header_callback, $admin_header_callback, $admin_image_div_callback)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_custom_image_header($header_callback, $admin_header_callback, $admin_image_div_callback)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_existing_user_to_blog($blog_id, $user_id, $role)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_filter($tag, $function_to_add, $priority, $accepted_args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_magic_quotes($array)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_menu_page($page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_meta_box($id, $title, $callback, $page, $context, $priority, $callback_args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_new_user_to_blog($blog_id, $user_id, $role)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_object_page($page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_option($name, $value, $deprecated, $autoload)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_ping($post_id, $uri)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_post_meta($post_id, $meta_key, $meta_value, $unique)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_post_type_support($post_type, $supports)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_query_arg($param1, $param2, $old_query_or_uri)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_role($role, $display_name, $capabilities)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_shortcode($tag , $func)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_theme_support($feature)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_user_meta($user_id, $meta_key, $meta_value, $unique)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_user_to_blog($blog_id, $user_id, $role)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="add_utility_page($page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="admin_notice_feed()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="admin_url($path, $scheme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="allowed_tags()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="antispambot($emailaddy, $mailto)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="apply_filters($tag, $value, $var)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="attribute_escape($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="author_can($post, $capability)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="auth_redirect()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="avoid_blog_page_permalink_collision()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="backslashit($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="balanceTags($text, $force)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="bloginfo()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="bloginfo_rss($show)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="body_class($class)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="bool_from_yn($yn)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="cache_javascript_headers()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="calendar_week_mod()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="cancel_comment_reply_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="category_description()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="cat_is_ancestor_of($cat1, $cat2)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="check_admin_referer($action, $query_arg)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="check_ajax_referer($action, $query_arg, $die)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="check_comment($author, $email, $url, $comment, $user_ip, $user_agent, $comment_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="check_import_new_users()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="check_upload_mimes()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="check_upload_size($file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="choose_primary_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="clean_pre($matches)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="clean_url($url, $protocols, $context)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_number($zero, $one, $more)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_open($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_popup_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_popup_script()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_rss_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comments_template($file, $separate_comments)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author($comment_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_email()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_email_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_IP()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_author_url_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_class($class)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_date('d', $comment_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_excerpt()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_form($args, $post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_form_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_ID()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_id_fields()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_reply_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_text($comment_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_text_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_time('d')" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="comment_type()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="confirm_delete_users()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="content_url($path)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="convert_chars($content, $deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="convert_smilies($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="count_many_users_posts($users)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="count_users($strategy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="count_user_posts($userid)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="create_empty_blog($domain, $path, $weblog_title, $site_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="current_filter()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="current_theme_supports($feature)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="current_time($type, $gmt = 0)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="current_user_can($capability)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="current_user_can_for_blog($blog_id, $capability)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="dashboard_quota()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="date_i18n($dateformatstring, $unixtimestamp, $gmt)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="delete_blog_option($id, $key)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="delete_get_calendar_cache()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="delete_option($name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="delete_post_meta($post_id, $meta_key, $meta_value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="delete_user_meta($user_id, $meta_key, $meta_value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="did_action($tag)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="discover_pingback_server_uri($url, $deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="display_space_usage()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="domain_exists($domain, $path, $site_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_action($tag, $arg)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_action_ref_array($tag, $arg)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_all_pings()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_enclose($content, $post_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_feed()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_feed_atom($for_comments)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_feed_rdf()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_feed_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_feed_rss2($for_comments)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_robots()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_shortcode($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_shortcode_tag($m)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="do_trackbacks($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="dynamic_sidebar($index)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_bookmark_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_comment_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_post_link($id, $context)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="edit_tag_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="email_exists($email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ent2ncr($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="esc_attr($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="esc_html($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="esc_js($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="esc_textarea($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="esc_url($url, (array) $protocols = null)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="extract_from_markers($filename, $marker)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="fetch_feed($uri)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="filter_SSL($url)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="fix_import_form_size($size)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="fix_phpmailer_messageid($phpmailer)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="force_balance_tags($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="force_ssl_content($force)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="format_code_lang($code)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="format_to_edit($content, $richedit)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="format_to_post($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="form_option($option)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="Function Reference/add_cap($role, $cap, $grant)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="Function Reference/remove_cap($role, $cap)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="funky_javascript_fix($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="generic_ping($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_404_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_active_blog_for_user($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_adjacent_post($in_same_cat, $excluded_categories, $previous)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_admin_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_admin_users_for_domain($sitedomain, $path)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_alloptions()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_all_category_ids()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_all_page_ids()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_ancestors($object_id, $object_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_approved_comments($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_archives_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_archive_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_attached_file($attachment_id, $unfiltered)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_attachment_link($id, $size, $permalink, $icon, $text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_attachment_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_author_feed_link($author_id, $feed)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_author_posts_url($author_id, $author_nicename)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_author_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_avatar($id_or_email, $size, $default, $alt)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blogaddress_by_domain($domain, $path)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blogaddress_by_id($blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blogaddress_by_name($blogname)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_bloginfo($show, $filter)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_bloginfo_rss($show)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blogs_of_user($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_count($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_details($blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_id_from_url($domain, $path)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_option($blog_id, $setting , $default)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_permalink($_blog_id, $post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_post($blog_id, $post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_blog_status($id, $pref)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_bookmark($bookmark, $output, $filter)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_bookmarks($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_bookmark_field()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_boundary_post($in_same_cat, $excluded_categories, $start)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_calendar($initial, $echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_categories($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category($category, $output, $filter)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category_by_path($category_path, $full_match, $output)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category_by_slug($slug)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category_feed_link($cat_id, $feed)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category_link($category_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category_parents($category, $display_link, $separator, $nice_name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_category_template|get_category_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_cat_ID($cat_name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_cat_name($cat_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_children($args, $output)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_comment($id, $output)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_comments($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_comments_popup_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_comment_author_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_comment_link($comment, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_comment_text($comment_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_currentuserinfo()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_current_blog_id()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_current_site()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_current_site_name($current_site)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_current_theme()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_dashboard_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_date_from_gmt($string, $format)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_date_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_day_link($year, $month, $day)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_dirsize($directory)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_edit_post_link($id, $context)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_enclosed($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_extended($post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_footer($name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_gmt_from_date()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_header($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_header_image()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_header_textcolor()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_home_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_home_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_id_from_blogname($name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_lastcommentmodified($timezone)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_lastpostdate($timezone)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_lastpostmodified($timezone)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_last_updated($depreciated, $start, $quantity)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_locale_stylesheet_uri()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_month_link($year, $month)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_most_recent_post_of_user($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_next_post($in_same_cat, $excluded_categories)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_num_queries()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_option($show, $default)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page($page_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_paged_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_pages($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_by_path($page_path, $output, $post_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_by_title($page_title, $output, $post_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_children($page_id, $pages)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_hierarchy($posts, $parent)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_link($id, $leavename, $sample)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_page_uri($page_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_permalink($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post($post_id, $output)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_posts($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_ancestors($post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_comments_feed_link($post_id, $feed)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_custom($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_custom_keys($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_custom_values($key, $post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_meta($post_id, $key, $single)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_mime_type($ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_permalink()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_status($ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_thumbnail_id()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_type($post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_type_capabilities($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_type_labels($post_type_object)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_type_object($post_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_post_types($args, $output, $operator)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_previous_post($in_same_cat, $excluded_categories)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_profile($field, $user)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_pung($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_query_template($type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_query_var($var)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_role($role)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_search_comments_feed_link($search_query, $feed)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_search_feed_link($search_query, $feed)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_search_form($echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_search_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_search_query()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_search_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_shortcode_regex()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_sidebar($name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_single_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_sitestats()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_site_allowed_themes()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_site_option($option, $default , $use_cache)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_site_url($blog_id, $path, $scheme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_space_allowed()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_stylesheet()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_stylesheet_directory()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_stylesheet_directory_uri()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_stylesheet_uri()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_super_admins()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_tag($tag, $output, $filter)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_tags($orderby, $order, $hide_empty, $exclude, $include, $number, $offset, $fields, $slug, $hierarchical, $search, $name__like)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_tag_link($tag_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_tag_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_taxonomies($args, $output, $operator)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_taxonomy_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_template()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_template_directory()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_template_directory_uri()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_template_part($slug, $name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_term($term, $taxonomy, $output, $filter)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_terms($taxonomies, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_term_by($field, $value, $taxonomy, $output, $filter)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_term_children($term, $taxonomy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_term_link($term, $taxonomy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_theme($theme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_themes()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_theme_data($theme_filename)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_theme_mod($name, $default)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_theme_root()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_theme_root_uri()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_author()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_author_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_category($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_category_by_ID($cat_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_category_rss($type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_content($more_link_text, $stripteaser, $more_file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_date()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_excerpt($deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_ID()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_post_thumbnail($post_id, $size, $attr)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_tags($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_tag_list($before, $sep, $after)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_terms($id, $taxonomy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_term_list($id, $taxonomy, $before, $sep, $after)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_time($d, $post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_title($ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_the_title_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_to_ping($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_upload_space_available()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_userdata($userid)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_userdatabylogin($user_login)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_usernumposts($userid)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_users($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_users_of_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_user_count()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_user_id_from_string($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_user_meta($user_id, $key, $single)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_user_option($option, $user)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_weekstartend($mysqlstring, $start_of_week)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_year_link($year)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="global_terms($term_id, $deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="grant_super_admin($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="has_action($tag, $function_to_check)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="has_filter($tag, $function_to_check)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="has_nav_menu($location)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="has_post_thumbnail()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="has_tag($tag)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="have_comments()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="header_image()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="header_textcolor()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="home_url($path, $scheme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="htmlentities2($myHTML)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="human_time_diff($from, $to)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="includes_url($path)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="insert_blog($domain, $path, $site_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="insert_with_markers($filename, $marker, $insertion)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="install_blog($blog_id, $blog_title)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="install_blog_defaults($blog_id, $user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="in_category($category, $_post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="iso8601_timezone_to_offset($timezone)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="iso8601_to_datetime($date_string, $timezone)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_404()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_admin()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_archive()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_archived()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_attachment()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_author($author)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_blog_installed()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_blog_user($blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_category($category)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_comments_popup()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_date()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_day()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_email($email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_email_address_unsafe($user_email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_feed()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_front_page()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_home()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_local_attachment($url)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_main_site($blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_month()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_new_day()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_page($page)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_paged()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_page_template($template)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_post_type_archive($post_types)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_post_type_hierarchical($post_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_preview()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_search()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_serialized($data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_serialized_string($data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_single($post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_singular($post_types)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_ssl()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_sticky($post_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_subdomain_install()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_super_admin($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_tag($slug)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_tax($taxonomy, $term)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_taxonomy_hierarchical($taxonomy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_time()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_trackback()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_upload_space_available()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_user_logged_in()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_user_member_of_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_user_option_local($key, $user_id, $blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_user_spammy($username)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="is_year()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="load_template($_template_file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="locale_stylesheet()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="locate_template($template_names, $load, $require_once)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="log_app($label, $msg)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="make_clickable($ret)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="map_meta_cap($cap, $user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="maybe_add_existing_user_to_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="maybe_redirect_404()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="maybe_serialize($data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="maybe_unserialize($original)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="menu_page_url($menu_slug, $echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="merge_filters($tag)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_cookie_constants()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_deprecated_blogs_file()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_file_constants()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_not_installed()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_site_check()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_subdomain_constants()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="ms_upload_constants()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="mu_dropdown_languages($lang_files, $current)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="mysql2date($dateformatstring, $mysqlstring, $translate = true)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="newblog_notify_siteadmin($blog_id, $deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="newuser_notify_siteadmin($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="new_user_email_admin_notice()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="next_comments_link($label, $max_page)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="next_image_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="next_posts_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="next_post_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="nocache_headers()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="page_uri_index()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="paginate_comments_links($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="permalink_anchor()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="permalink_comments_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="permalink_single_rss($file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="pingback($content, $post_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="pings_open($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="plugins_url($path, $plugin)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="plugin_basename($file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="popuplinks($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="posts_nav_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="post_class()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="post_comments_feed_link($link_text, $post_id, $feed)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="post_password_required()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="post_permalink()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="post_type_archive_title($prefix, $display)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="post_type_supports($post_type, $supports)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="preview_theme()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="preview_theme_ob_filter($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="preview_theme_ob_filter_callback($matches)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="previous_comments_link($label)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="previous_image_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="previous_posts_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="previous_post_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="privacy_ping_filter($sites)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="recurse_dirsize($directory)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="redirect_mu_dashboard()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="redirect_this_site($deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="redirect_user_to_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="refresh_blog_details($blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="refresh_user_details($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_activation_hook($file, $function)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_deactivation_hook($file, $function)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_nav_menu($location, $description)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_nav_menus($locations)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_post_type($post_type, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_setting($option_group, $option_name, $sanitize_callback)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_taxonomy($taxonomy, $object_type, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_taxonomy_for_object_type($taxonomy, $object_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="register_theme_directory($directory)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_accents($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_action($tag, $function_to_remove, $priority, $accepted_args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_all_actions($tag, $priority)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_all_filters($tag, $priority)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_all_shortcodes()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_filter($tag, $function_to_remove, $priority, $accepted_args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_meta_box($id, $page, $context)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_post_type_support($post_type, $supports)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_query_arg($key, $query)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_role($role)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_shortcode($tag)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_theme_mod($name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_theme_mods()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="remove_user_from_blog($user_id, $blog_id, $reassign)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="require_if_theme_supports($feature, $include)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="restore_current_blog()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="revoke_super_admin($user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="rss_enclosure()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sanitize_comment_cookies()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sanitize_email($email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sanitize_file_name($name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sanitize_title($title, $fallback_title)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sanitize_title_with_dashes($title)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sanitize_user($username, $strict)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="search_theme_directories()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="secret_salt_warning()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="seems_utf8($str)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="send_confirmation_on_profile_email()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="settings_fields($option_group)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="set_current_user($id, $name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="set_post_type($post_id, $post_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="set_theme_mod($name, $value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="shortcode_atts($pairs , $atts)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="shortcode_parse_atts($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="show_post_thumbnail_warning()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="signup_nonce_check($result)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="signup_nonce_fields()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="single_cat_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="single_month_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="single_post_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="single_tag_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="single_term_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="site_admin_notice()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="site_url($path, $scheme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="spawn_cron($local_time)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="status_header($header)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sticky_class()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="stripslashes_deep($value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="strip_shortcodes($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="switch_theme($template, $stylesheet)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="switch_to_blog($new_blog, $validate)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="sync_category_tag_slugs($term, $taxonomy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="tag_description()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="taxonomy_exists($taxonomy)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="term_description()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="term_exists($term, $taxonomy, $parent)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_attachment_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_author()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_author_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_author_meta()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_author_posts()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_author_posts_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_category()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_category_rss($type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_content()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_content_rss($more_link_text, $stripteaser, $more_file, $cut, $encode_html)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_date($format, $before, $after, $echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_date_xml()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_excerpt()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_excerpt_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_feed_link()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_ID()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_meta()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_modified_author()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_modified_date()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_modified_time()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_permalink()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_post_thumbnail()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_search_query()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_shortlink()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_tags()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_taxonomies()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_terms()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_time()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_title_attribute()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="the_title_rss()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="trackback($trackback_url, $title, $excerpt, $ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="trackback_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="trackback_url_list($tb_list, $post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="trailingslashit($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="unregister_nav_menu($location)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="unregister_setting($option_group, $option_name, $sanitize_callback)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="untrailingslashit($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_archived($id, $archived)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_attached_file($attachment_id, $file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_blog_details($blog_id, $details)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_blog_option($id, $key, $value, $depreciated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_blog_public($old_value, $value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_blog_status($blog_id, $pref, $value, $refresh)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_option($option_name, $newvalue)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_option_new_admin_email($old_value, $value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_posts_count($deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_post_meta($post_id, $meta_key, $meta_value, $prev_value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_user_meta($user_id, $meta_key, $meta_value, $prev_value)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_user_option($user_id, $option_name, $newvalue, $global)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="update_user_status($id, $pref, $value, $deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="upload_is_file_too_big($upload)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="upload_is_user_over_quota($echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="upload_size_limit_filter($size)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="upload_space_setting($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="url_shorten($url)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="username_exists($username)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="users_can_register_signup_filter()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="user_can($user, $capability)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="user_pass_ok($user_login, $user_pass)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="user_trailingslashit()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="utf8_uri_encode($utf8_string, $length)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="validate_current_theme()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="validate_username($username)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="walk_nav_menu_tree()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="weblog_ping($server, $path)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="welcome_user_msg_filter($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wordpressmu_wp_mail_from()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp($query_vars)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpautop($foo, $br)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_activate_signup($key)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_admin_redirect_add_updated_param()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_create_blog($domain, $path, $title, $user_id, $meta, $site_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_create_user($user_name, $password, $email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_current_site()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_delete_blog($blog_id, $drop)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_delete_user($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_get_blog_allowedthemes($blog_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_log_new_registrations($blog_id, $user_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_signup_blog($domain, $path, $title, $user, $user_email, $meta)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_signup_blog_notification($domain, $path, $title, $user, $user_email, $key, $meta)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_signup_user($user, $user_email, $meta)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_signup_user_notification($user, $user_email, $key, $meta)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_update_blogs_date()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_validate_blog_signup($blogname, $blog_title, $user)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_validate_user_signup($user_name, $user_email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_welcome_notification($blog_id, $user_id, $password, $title, $meta)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wpmu_welcome_user_notification($user_id, $password, $meta)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wptexturize($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_ajaxurl()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_allow_comment($commentdata)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_attachment_is_image($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_category_checklist()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_check_filetype($filename, $mimes)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_check_for_changed_slugs($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_clearcookie()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_clear_scheduled_hook($hook, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_count_comments($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_count_posts($type, $perm)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_create_category($cat_name, $parent)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_create_nonce($action)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_create_user($username, $password, $email)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_cron()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_delete_attachment()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_delete_category($cat_ID)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_delete_comment($attachmentid, $force_delete = false)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_delete_post($postid, $force_delete)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_delete_term($term_id, $taxonomy, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_delete_user($id, $reassign)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_die($message, $title, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_dropdown_categories()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_dropdown_users()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_explain_nonce($action)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_filter_comment($commentdata)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_filter_kses($data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_filter_nohtml_kses($data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_filter_post_kses($data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_footer()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_generate_tag_cloud()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_generate_attachment_metadeta($attachment_id, $file)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_archives($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_image($attachment_id, $size, $icon, $attr)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_image_src($attachment_id, $size, $icon)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_link($id, $size, $permalink, $icon, $text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_metadata($post_id, $unfiltered)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_thumb_file($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_thumb_url($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_attachment_url($id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_comment_status($comment_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_cookie_login()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_current_commenter()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_current_user()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_http_headers($url, $deprecated)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_nav_menu_items($menu, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_object_terms($object_ids, $taxonomies, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_original_referer()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_post_categories($post_id, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_post_tags($post_id, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_post_terms($post_id, $taxonomy, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_recent_posts($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_referer()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_schedule($hook, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_schedules()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_shortlink()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_get_single_post($postid, $mode)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_hash($data, $scheme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_head()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_insert_attachment($attachment, $filename, $parent_post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_insert_category($catarr, $wp_error)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_insert_comment($commentdata)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_insert_post($post, $wp_error)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_insert_term($term, $taxonomy, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_insert_user($userdata)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_iso_descrambler($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses($string, $allowed_html, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_array_lc($inarray)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_attr($element, $attr, $allowed_html, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_bad_protocol($string, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_bad_protocol_once($string, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_bad_protocol_once2($matches)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_check_attr_val($value, $vless, $checkname, $checkvalue)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_decode_entities($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_hair($attr, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_hook($string, $allowed_html, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_html_error($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_js_entities($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_normalize_entities($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_normalize_entities2($matches)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_no_null($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_split($string, $allowed_html, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_split2($string, $allowed_html, $allowed_protocols)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_stripslashes($string)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_kses_version()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_link_pages()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_list_authors()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_list_bookmarks($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_list_categories($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_list_comments($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_list_pages($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_loginout()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_login_form()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_login_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_logout()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_logout_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_lostpassword_url()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_mail($to, $subject, $message, $headers, $attachments)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_make_link_relative($link)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_meta()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_mime_type_icon($mime)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_mkdir_p($target)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_nav_menu($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_new_comment($commentdata)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_new_user_notification($user_id, $plaintext_pass)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_next_scheduled($hook, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_nonce_ays($action)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_nonce_field($action, $name, $referer, $echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_nonce_url($actionurl, $action)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_notify_moderator($comment_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_notify_postauthor($comment_id, $comment_type)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_original_referer_field($echo, $jump_back_to)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_page_menu($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_parse_args($args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_publish_post($post_id)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_redirect($location, $status)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_referer_field($echo)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_register()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_rel_nofollow($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_remote_fopen($uri)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_reschedule_event($timestamp, $recurrence, $hook, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_reset_postdata()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_reset_query()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_richedit_pre($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_salt($scheme)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_schedule_event($timestamp, $recurrence, $hook, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_schedule_single_event($timestamp, $hook, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_auth_cookie($user_id, $remember, $secure)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_comment_status($comment_id, $comment_status)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_current_user($id, $name)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_object_terms($object_id, $terms, $taxonomy, $append)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_post_categories($post_ID, $post_categories)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_post_tags($post_ID, $tags, $append)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_set_post_terms($post_ID, $tags, $taxonomy, $append)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_shortlink_header()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_shortlink_wp_head()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_signon($credentials, $secure_cookie)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_specialchars($text, $quotes)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_tag_cloud()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_terms_checklist()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_throttle_comment_flood($block, $time_lastcomment, $time_newcomment)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_title()" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_trim_excerpt($text)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_unschedule_event($timestamp, 'my_schedule_hook', original_args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_update_attachment_metadata($post_id, $data)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_update_comment($commentarr)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_update_comment_count($post_id, $do_deferred)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_update_post($post)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_update_term($term_id, $taxonomy, $args)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_update_user($userdata)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_upload_bits($name, $deprecated, $bits, $time)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_upload_dir($time)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_verify_nonce($nonce, $action)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="xmlrpc_getpostcategory($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="xmlrpc_getposttitle($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="xmlrpc_removepostdata($content)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="zeroise($number, $threshold)" doctypes="PHP_MySQL" casesensitive="true" />
-	<function pattern="_admin_notice_multisite_activate_plugins_page()" doctypes="PHP_MySQL" casesensitive="true" />
+	<function pattern="addslashes_gpc($gpc)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_action($tag, $function_to_add, $priority, $accepted_args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_blog_option($id, $key, $value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_custom_background($header_callback, $admin_header_callback, $admin_image_div_callback)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_custom_image_header($header_callback, $admin_header_callback, $admin_image_div_callback)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_existing_user_to_blog($blog_id, $user_id, $role)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_filter($tag, $function_to_add, $priority, $accepted_args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_magic_quotes($array)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_menu_page($page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_meta_box($id, $title, $callback, $page, $context, $priority, $callback_args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_new_user_to_blog($blog_id, $user_id, $role)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_object_page($page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_option($name, $value, $deprecated, $autoload)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_ping($post_id, $uri)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_post_meta($post_id, $meta_key, $meta_value, $unique)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_post_type_support($post_type, $supports)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_query_arg($param1, $param2, $old_query_or_uri)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_role($role, $display_name, $capabilities)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_shortcode($tag , $func)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_theme_support($feature)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_user_meta($user_id, $meta_key, $meta_value, $unique)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_user_to_blog($blog_id, $user_id, $role)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="add_utility_page($page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="admin_notice_feed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="admin_url($path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="allowed_tags()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="antispambot($emailaddy, $mailto)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="apply_filters($tag, $value, $var)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="attribute_escape($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="author_can($post, $capability)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="auth_redirect()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="avoid_blog_page_permalink_collision()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="backslashit($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="balanceTags($text, $force)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="bloginfo()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="bloginfo_rss($show)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="body_class($class)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="bool_from_yn($yn)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="cache_javascript_headers()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="calendar_week_mod()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="cancel_comment_reply_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="category_description()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="cat_is_ancestor_of($cat1, $cat2)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="check_admin_referer($action, $query_arg)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="check_ajax_referer($action, $query_arg, $die)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="check_comment($author, $email, $url, $comment, $user_ip, $user_agent, $comment_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="check_import_new_users()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="check_upload_mimes()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="check_upload_size($file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="choose_primary_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="clean_pre($matches)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="clean_url($url, $protocols, $context)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_number($zero, $one, $more)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_open($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_popup_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_popup_script()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_rss_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comments_template($file, $separate_comments)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author($comment_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_email()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_email_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_IP()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_author_url_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_class($class)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_date('d', $comment_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_excerpt()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_form($args, $post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_form_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_ID()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_id_fields()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_reply_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_text($comment_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_text_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_time('d')" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="comment_type()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="confirm_delete_users()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="content_url($path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="convert_chars($content, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="convert_smilies($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="count_many_users_posts($users)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="count_users($strategy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="count_user_posts($userid)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="create_empty_blog($domain, $path, $weblog_title, $site_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="current_filter()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="current_theme_supports($feature)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="current_time($type, $gmt = 0)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="current_user_can($capability)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="current_user_can_for_blog($blog_id, $capability)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="dashboard_quota()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="date_i18n($dateformatstring, $unixtimestamp, $gmt)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_blog_option($id, $key)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_get_calendar_cache()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_option($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_post_meta($post_id, $meta_key, $meta_value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_user_meta($user_id, $meta_key, $meta_value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="did_action($tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="discover_pingback_server_uri($url, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="display_space_usage()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="domain_exists($domain, $path, $site_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_action($tag, $arg)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_action_ref_array($tag, $arg)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_all_pings()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_enclose($content, $post_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_feed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_feed_atom($for_comments)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_feed_rdf()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_feed_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_feed_rss2($for_comments)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_robots()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_shortcode($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_shortcode_tag($m)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="do_trackbacks($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="dynamic_sidebar($index)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_bookmark_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_comment_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_post_link($id, $context)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="edit_tag_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="email_exists($email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ent2ncr($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="esc_attr($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="esc_html($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="esc_js($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="esc_textarea($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="esc_url($url, (array) $protocols = null)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="extract_from_markers($filename, $marker)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="fetch_feed($uri)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="filter_SSL($url)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="fix_import_form_size($size)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="fix_phpmailer_messageid($phpmailer)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="force_balance_tags($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="force_ssl_content($force)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="format_code_lang($code)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="format_to_edit($content, $richedit)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="format_to_post($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="form_option($option)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="Function Reference/add_cap($role, $cap, $grant)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="Function Reference/remove_cap($role, $cap)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="funky_javascript_fix($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="generic_ping($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_404_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_active_blog_for_user($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_adjacent_post($in_same_cat, $excluded_categories, $previous)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_admin_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_admin_users_for_domain($sitedomain, $path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_alloptions()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_all_category_ids()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_all_page_ids()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_ancestors($object_id, $object_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_approved_comments($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_archives_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_archive_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_attached_file($attachment_id, $unfiltered)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_attachment_link($id, $size, $permalink, $icon, $text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_attachment_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_author_feed_link($author_id, $feed)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_author_posts_url($author_id, $author_nicename)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_author_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_avatar($id_or_email, $size, $default, $alt)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blogaddress_by_domain($domain, $path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blogaddress_by_id($blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blogaddress_by_name($blogname)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_bloginfo($show, $filter)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_bloginfo_rss($show)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blogs_of_user($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_count($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_details($blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_id_from_url($domain, $path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_option($blog_id, $setting , $default)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_permalink($_blog_id, $post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_post($blog_id, $post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_blog_status($id, $pref)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_bookmark($bookmark, $output, $filter)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_bookmarks($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_bookmark_field()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_boundary_post($in_same_cat, $excluded_categories, $start)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_calendar($initial, $echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_categories($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category($category, $output, $filter)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category_by_path($category_path, $full_match, $output)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category_by_slug($slug)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category_feed_link($cat_id, $feed)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category_link($category_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category_parents($category, $display_link, $separator, $nice_name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_category_template|get_category_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_cat_ID($cat_name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_cat_name($cat_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_children($args, $output)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_comment($id, $output)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_comments($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_comments_popup_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_comment_author_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_comment_link($comment, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_comment_text($comment_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_currentuserinfo()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_current_blog_id()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_current_site()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_current_site_name($current_site)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_current_theme()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_dashboard_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_date_from_gmt($string, $format)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_date_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_day_link($year, $month, $day)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_dirsize($directory)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_edit_post_link($id, $context)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_enclosed($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_extended($post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_footer($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_gmt_from_date()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_header($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_header_image()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_header_textcolor()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_home_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_home_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_id_from_blogname($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_lastcommentmodified($timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_lastpostdate($timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_lastpostmodified($timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_last_updated($depreciated, $start, $quantity)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_locale_stylesheet_uri()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_month_link($year, $month)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_most_recent_post_of_user($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_next_post($in_same_cat, $excluded_categories)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_num_queries()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_option($show, $default)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page($page_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_paged_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_pages($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_by_path($page_path, $output, $post_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_by_title($page_title, $output, $post_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_children($page_id, $pages)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_hierarchy($posts, $parent)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_link($id, $leavename, $sample)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_page_uri($page_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_permalink($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post($post_id, $output)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_posts($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_ancestors($post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_comments_feed_link($post_id, $feed)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_custom($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_custom_keys($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_custom_values($key, $post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_meta($post_id, $key, $single)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_mime_type($ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_permalink()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_status($ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_thumbnail_id()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_type($post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_type_capabilities($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_type_labels($post_type_object)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_type_object($post_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_post_types($args, $output, $operator)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_previous_post($in_same_cat, $excluded_categories)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_profile($field, $user)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_pung($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_query_template($type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_query_var($var)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_role($role)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_search_comments_feed_link($search_query, $feed)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_search_feed_link($search_query, $feed)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_search_form($echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_search_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_search_query()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_search_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_shortcode_regex()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_sidebar($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_single_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_sitestats()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_site_allowed_themes()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_site_option($option, $default , $use_cache)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_site_url($blog_id, $path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_space_allowed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_stylesheet()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_stylesheet_directory()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_stylesheet_directory_uri()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_stylesheet_uri()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_super_admins()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_tag($tag, $output, $filter)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_tags($orderby, $order, $hide_empty, $exclude, $include, $number, $offset, $fields, $slug, $hierarchical, $search, $name__like)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_tag_link($tag_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_tag_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_taxonomies($args, $output, $operator)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_taxonomy_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_template_directory()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_template_directory_uri()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_template_part($slug, $name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_term($term, $taxonomy, $output, $filter)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_terms($taxonomies, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_term_by($field, $value, $taxonomy, $output, $filter)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_term_children($term, $taxonomy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_term_link($term, $taxonomy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_theme($theme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_themes()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_theme_data($theme_filename)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_theme_mod($name, $default)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_theme_root()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_theme_root_uri()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_author()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_author_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_category($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_category_by_ID($cat_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_category_rss($type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_content($more_link_text, $stripteaser, $more_file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_date()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_excerpt($deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_ID()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_post_thumbnail($post_id, $size, $attr)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_tags($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_tag_list($before, $sep, $after)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_terms($id, $taxonomy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_term_list($id, $taxonomy, $before, $sep, $after)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_time($d, $post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_title($ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_the_title_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_to_ping($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_upload_space_available()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_userdata($userid)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_userdatabylogin($user_login)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_usernumposts($userid)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_users($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_users_of_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_user_count()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_user_id_from_string($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_user_meta($user_id, $key, $single)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_user_option($option, $user)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_weekstartend($mysqlstring, $start_of_week)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_year_link($year)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="global_terms($term_id, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="grant_super_admin($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="has_action($tag, $function_to_check)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="has_filter($tag, $function_to_check)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="has_nav_menu($location)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="has_post_thumbnail()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="has_tag($tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="have_comments()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="header_image()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="header_textcolor()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="home_url($path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="htmlentities2($myHTML)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="human_time_diff($from, $to)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="includes_url($path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="insert_blog($domain, $path, $site_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="insert_with_markers($filename, $marker, $insertion)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="install_blog($blog_id, $blog_title)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="install_blog_defaults($blog_id, $user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="in_category($category, $_post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="iso8601_timezone_to_offset($timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="iso8601_to_datetime($date_string, $timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_404()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_admin()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_archive()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_archived()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_attachment()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_author($author)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_blog_installed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_blog_user($blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_category($category)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_comments_popup()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_date()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_day()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_email($email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_email_address_unsafe($user_email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_feed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_front_page()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_home()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_local_attachment($url)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_main_site($blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_month()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_new_day()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_page($page)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_paged()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_page_template($template)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_post_type_archive($post_types)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_post_type_hierarchical($post_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_preview()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_search()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_serialized($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_serialized_string($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_single($post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_singular($post_types)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_ssl()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_sticky($post_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_subdomain_install()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_super_admin($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_tag($slug)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_tax($taxonomy, $term)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_taxonomy_hierarchical($taxonomy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_time()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_trackback()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_upload_space_available()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_user_logged_in()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_user_member_of_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_user_option_local($key, $user_id, $blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_user_spammy($username)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="is_year()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="load_template($_template_file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="locale_stylesheet()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="locate_template($template_names, $load, $require_once)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="log_app($label, $msg)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="make_clickable($ret)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="map_meta_cap($cap, $user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="maybe_add_existing_user_to_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="maybe_redirect_404()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="maybe_serialize($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="maybe_unserialize($original)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="menu_page_url($menu_slug, $echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="merge_filters($tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_cookie_constants()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_deprecated_blogs_file()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_file_constants()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_not_installed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_site_check()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_subdomain_constants()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="ms_upload_constants()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="mu_dropdown_languages($lang_files, $current)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="mysql2date($dateformatstring, $mysqlstring, $translate = true)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="newblog_notify_siteadmin($blog_id, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="newuser_notify_siteadmin($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="new_user_email_admin_notice()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="next_comments_link($label, $max_page)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="next_image_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="next_posts_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="next_post_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="nocache_headers()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="page_uri_index()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="paginate_comments_links($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="permalink_anchor()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="permalink_comments_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="permalink_single_rss($file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="pingback($content, $post_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="pings_open($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="plugins_url($path, $plugin)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="plugin_basename($file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="popuplinks($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="posts_nav_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="post_class()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="post_comments_feed_link($link_text, $post_id, $feed)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="post_password_required()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="post_permalink()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="post_type_archive_title($prefix, $display)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="post_type_supports($post_type, $supports)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="preview_theme()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="preview_theme_ob_filter($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="preview_theme_ob_filter_callback($matches)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="previous_comments_link($label)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="previous_image_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="previous_posts_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="previous_post_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="privacy_ping_filter($sites)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="recurse_dirsize($directory)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="redirect_mu_dashboard()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="redirect_this_site($deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="redirect_user_to_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="refresh_blog_details($blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="refresh_user_details($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_activation_hook($file, $function)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_deactivation_hook($file, $function)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_nav_menu($location, $description)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_nav_menus($locations)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_post_type($post_type, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_setting($option_group, $option_name, $sanitize_callback)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_taxonomy($taxonomy, $object_type, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_taxonomy_for_object_type($taxonomy, $object_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="register_theme_directory($directory)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_accents($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_action($tag, $function_to_remove, $priority, $accepted_args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_all_actions($tag, $priority)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_all_filters($tag, $priority)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_all_shortcodes()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_filter($tag, $function_to_remove, $priority, $accepted_args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_meta_box($id, $page, $context)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_post_type_support($post_type, $supports)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_query_arg($key, $query)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_role($role)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_shortcode($tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_theme_mod($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_theme_mods()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="remove_user_from_blog($user_id, $blog_id, $reassign)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="require_if_theme_supports($feature, $include)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="restore_current_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="revoke_super_admin($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="rss_enclosure()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sanitize_comment_cookies()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sanitize_email($email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sanitize_file_name($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sanitize_title($title, $fallback_title)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sanitize_title_with_dashes($title)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sanitize_user($username, $strict)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="search_theme_directories()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="secret_salt_warning()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="seems_utf8($str)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="send_confirmation_on_profile_email()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="settings_fields($option_group)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="set_current_user($id, $name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="set_post_type($post_id, $post_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="set_theme_mod($name, $value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="shortcode_atts($pairs , $atts)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="shortcode_parse_atts($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="show_post_thumbnail_warning()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="signup_nonce_check($result)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="signup_nonce_fields()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="single_cat_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="single_month_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="single_post_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="single_tag_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="single_term_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="site_admin_notice()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="site_url($path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="spawn_cron($local_time)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="status_header($header)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sticky_class()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="stripslashes_deep($value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="strip_shortcodes($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="switch_theme($template, $stylesheet)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="switch_to_blog($new_blog, $validate)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="sync_category_tag_slugs($term, $taxonomy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="tag_description()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="taxonomy_exists($taxonomy)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="term_description()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="term_exists($term, $taxonomy, $parent)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_attachment_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_author()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_author_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_author_meta()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_author_posts()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_author_posts_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_category()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_category_rss($type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_content()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_content_rss($more_link_text, $stripteaser, $more_file, $cut, $encode_html)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_date($format, $before, $after, $echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_date_xml()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_excerpt()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_excerpt_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_feed_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_ID()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_meta()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_modified_author()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_modified_date()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_modified_time()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_permalink()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_post_thumbnail()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_search_query()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_shortlink()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_tags()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_taxonomies()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_terms()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_time()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_title_attribute()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="the_title_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="trackback($trackback_url, $title, $excerpt, $ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="trackback_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="trackback_url_list($tb_list, $post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="trailingslashit($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="unregister_nav_menu($location)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="unregister_setting($option_group, $option_name, $sanitize_callback)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="untrailingslashit($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_archived($id, $archived)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_attached_file($attachment_id, $file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_blog_details($blog_id, $details)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_blog_option($id, $key, $value, $depreciated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_blog_public($old_value, $value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_blog_status($blog_id, $pref, $value, $refresh)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_option($option_name, $newvalue)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_option_new_admin_email($old_value, $value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_posts_count($deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_post_meta($post_id, $meta_key, $meta_value, $prev_value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_user_meta($user_id, $meta_key, $meta_value, $prev_value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_user_option($user_id, $option_name, $newvalue, $global)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="update_user_status($id, $pref, $value, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="upload_is_file_too_big($upload)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="upload_is_user_over_quota($echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="upload_size_limit_filter($size)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="upload_space_setting($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="url_shorten($url)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="username_exists($username)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="users_can_register_signup_filter()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="user_can($user, $capability)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="user_pass_ok($user_login, $user_pass)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="user_trailingslashit()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="utf8_uri_encode($utf8_string, $length)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="validate_current_theme()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="validate_username($username)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="walk_nav_menu_tree()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="weblog_ping($server, $path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="welcome_user_msg_filter($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wordpressmu_wp_mail_from()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp($query_vars)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpautop($foo, $br)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_activate_signup($key)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_admin_redirect_add_updated_param()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_create_blog($domain, $path, $title, $user_id, $meta, $site_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_create_user($user_name, $password, $email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_current_site()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_delete_blog($blog_id, $drop)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_delete_user($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_get_blog_allowedthemes($blog_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_log_new_registrations($blog_id, $user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_signup_blog($domain, $path, $title, $user, $user_email, $meta)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_signup_blog_notification($domain, $path, $title, $user, $user_email, $key, $meta)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_signup_user($user, $user_email, $meta)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_signup_user_notification($user, $user_email, $key, $meta)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_update_blogs_date()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_validate_blog_signup($blogname, $blog_title, $user)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_validate_user_signup($user_name, $user_email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_welcome_notification($blog_id, $user_id, $password, $title, $meta)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wpmu_welcome_user_notification($user_id, $password, $meta)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wptexturize($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_ajaxurl()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_allow_comment($commentdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_attachment_is_image($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_category_checklist()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_check_filetype($filename, $mimes)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_check_for_changed_slugs($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_clearcookie()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_clear_scheduled_hook($hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_count_comments($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_count_posts($type, $perm)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_create_category($cat_name, $parent)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_create_nonce($action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_create_user($username, $password, $email)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_cron()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_delete_attachment()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_delete_category($cat_ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_delete_comment($attachmentid, $force_delete = false)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_delete_post($postid, $force_delete)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_delete_term($term_id, $taxonomy, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_delete_user($id, $reassign)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_die($message, $title, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_dropdown_categories()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_dropdown_users()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_explain_nonce($action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_filter_comment($commentdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_filter_kses($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_filter_nohtml_kses($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_filter_post_kses($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_footer()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_generate_tag_cloud()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_generate_attachment_metadeta($attachment_id, $file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_archives($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_image($attachment_id, $size, $icon, $attr)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_image_src($attachment_id, $size, $icon)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_link($id, $size, $permalink, $icon, $text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_metadata($post_id, $unfiltered)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_thumb_file($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_thumb_url($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_attachment_url($id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_comment_status($comment_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_cookie_login()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_current_commenter()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_current_user()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_http_headers($url, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_nav_menu_items($menu, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_object_terms($object_ids, $taxonomies, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_original_referer()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_post_categories($post_id, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_post_tags($post_id, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_post_terms($post_id, $taxonomy, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_recent_posts($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_referer()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_schedule($hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_schedules()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_shortlink()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_get_single_post($postid, $mode)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_hash($data, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_head()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_insert_attachment($attachment, $filename, $parent_post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_insert_category($catarr, $wp_error)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_insert_comment($commentdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_insert_post($post, $wp_error)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_insert_term($term, $taxonomy, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_insert_user($userdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_iso_descrambler($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses($string, $allowed_html, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_array_lc($inarray)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_attr($element, $attr, $allowed_html, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_bad_protocol($string, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_bad_protocol_once($string, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_bad_protocol_once2($matches)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_check_attr_val($value, $vless, $checkname, $checkvalue)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_decode_entities($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_hair($attr, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_hook($string, $allowed_html, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_html_error($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_js_entities($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_normalize_entities($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_normalize_entities2($matches)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_no_null($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_split($string, $allowed_html, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_split2($string, $allowed_html, $allowed_protocols)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_stripslashes($string)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_kses_version()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_link_pages()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_list_authors()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_list_bookmarks($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_list_categories($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_list_comments($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_list_pages($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_loginout()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_login_form()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_login_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_logout()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_logout_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_lostpassword_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_mail($to, $subject, $message, $headers, $attachments)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_make_link_relative($link)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_meta()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_mime_type_icon($mime)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_mkdir_p($target)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_nav_menu($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_new_comment($commentdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_new_user_notification($user_id, $plaintext_pass)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_next_scheduled($hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_nonce_ays($action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_nonce_field($action, $name, $referer, $echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_nonce_url($actionurl, $action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_notify_moderator($comment_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_notify_postauthor($comment_id, $comment_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_original_referer_field($echo, $jump_back_to)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_page_menu($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_parse_args($args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_publish_post($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_redirect($location, $status)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_referer_field($echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_register()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_rel_nofollow($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_remote_fopen($uri)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_reschedule_event($timestamp, $recurrence, $hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_reset_postdata()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_reset_query()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_richedit_pre($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_salt($scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_schedule_event($timestamp, $recurrence, $hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_schedule_single_event($timestamp, $hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_auth_cookie($user_id, $remember, $secure)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_comment_status($comment_id, $comment_status)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_current_user($id, $name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_object_terms($object_id, $terms, $taxonomy, $append)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_post_categories($post_ID, $post_categories)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_post_tags($post_ID, $tags, $append)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_set_post_terms($post_ID, $tags, $taxonomy, $append)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_shortlink_header()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_shortlink_wp_head()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_signon($credentials, $secure_cookie)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_specialchars($text, $quotes)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_tag_cloud()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_terms_checklist()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_throttle_comment_flood($block, $time_lastcomment, $time_newcomment)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_title()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_trim_excerpt($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_unschedule_event($timestamp, 'my_schedule_hook', original_args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_update_attachment_metadata($post_id, $data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_update_comment($commentarr)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_update_comment_count($post_id, $do_deferred)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_update_post($post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_update_term($term_id, $taxonomy, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_update_user($userdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_upload_bits($name, $deprecated, $bits, $time)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_upload_dir($time)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_verify_nonce($nonce, $action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="xmlrpc_getpostcategory($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="xmlrpc_getposttitle($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="xmlrpc_removepostdata($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="zeroise($number, $threshold)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="_admin_notice_multisite_activate_plugins_page()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	
 	<menu pattern="ABS" DOCTYPES="PHP_MySQL" additionaldismisschars="BCDFGIJKNOQRSUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
 		<menuitem label="ABSPATH" value="PATH" icon="shared/mm/images/hintFunction.png"/>
