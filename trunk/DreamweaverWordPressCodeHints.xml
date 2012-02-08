@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	
-	Version: 0.2.3
+	Version: 0.2.4
 	$Revision$
 	$Date$
 	$Id$
@@ -1712,179 +1712,179 @@
 	</menu>
 	
 	<menu pattern="wp" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
-		<menuitem label="wpautop" value="utop(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_activate_signup" value="u_activate_signup(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_admin_redirect_add_updated_param" value="u_admin_redirect_add_updated_param(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_create_blog" value="u_create_blog(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_create_user" value="u_create_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_current_site" value="u_current_site(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_delete_blog" value="u_delete_blog(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_delete_user" value="u_delete_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_get_blog_allowedthemes" value="u_get_blog_allowedthemes(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_log_new_registrations" value="u_log_new_registrations(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_signup_blog" value="u_signup_blog(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_signup_blog_notification" value="u_signup_blog_notification(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_signup_user" value="u_signup_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_signup_user_notification" value="u_signup_user_notification(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_update_blogs_date" value="u_update_blogs_date(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_validate_blog_signup" value="u_validate_blog_signup(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_validate_user_signup" value="u_validate_user_signup(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_welcome_notification" value="u_welcome_notification(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wpmu_welcome_user_notification" value="u_welcome_user_notification(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wptexturize" value="exturize(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_ajaxurl" value="ajaxurl(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_allow_comment" value="allow_comment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_attachment_is_image" value="attachment_is_image(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_category_checklist" value="category_checklist(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_check_filetype" value="check_filetype(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_check_for_changed_slugs" value="check_for_changed_slugs(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_clearcookie" value="clearcookie(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_clear_scheduled_hook" value="clear_scheduled_hook(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_count_comments" value="count_comments(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_count_posts" value="count_posts(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_create_category" value="create_category(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_create_nonce" value="create_nonce(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_create_user" value="create_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_cron" value="cron(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_delete_attachment" value="delete_attachment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_delete_category" value="delete_category(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_delete_comment" value="delete_comment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_delete_post" value="delete_post(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_delete_term" value="delete_term(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_delete_user" value="delete_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_die" value="die(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_dropdown_categories" value="dropdown_categories(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_dropdown_pages" value="dropdown_pages(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_dropdown_users" value="dropdown_users(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_explain_nonce" value="explain_nonce(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_filter_comment" value="filter_comment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_filter_kses" value="filter_kses(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_filter_nohtml_kses" value="filter_nohtml_kses(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_filter_post_kses" value="filter_post_kses(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_footer" value="footer(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_generate_attachment_metadata" value="generate_attachment_metadata(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_generate_tag_cloud" value="generate_tag_cloud(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_archives" value="get_archives(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_get_attachment_image" value="get_attachment_image(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_attachment_image_src" value="get_attachment_image_src(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_attachment_link" value="get_attachment_link(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_attachment_metadata" value="get_attachment_metadata(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_attachment_thumb_file" value="get_attachment_thumb_file(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_attachment_thumb_url" value="get_attachment_thumb_url(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_attachment_url" value="get_attachment_url(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_comment_status" value="get_comment_status(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_cookie_login" value="get_cookie_login(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_current_commenter" value="get_current_commenter(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_current_user" value="get_current_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_http_headers" value="get_http_headers(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_nav_menu_items" value="get_nav_menu_items(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_object_terms" value="get_object_terms(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_original_referer" value="get_original_referer(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_post_categories" value="get_post_categories(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_post_tags" value="get_post_tags(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_post_terms" value="get_post_terms(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_recent_posts" value="get_recent_posts(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_referer" value="get_referer(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_schedule" value="get_schedule(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_schedules" value="get_schedules(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_shortlink" value="get_shortlink(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_get_single_post" value="get_single_post(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_hash" value="hash(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_head" value="head(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_insert_attachment" value="insert_attachment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_insert_category" value="insert_category(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_insert_comment" value="insert_comment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_insert_post" value="insert_post(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_insert_term" value="insert_term(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_insert_user" value="insert_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_iso_descrambler" value="iso_descrambler(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses" value="kses(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_array_lc" value="kses_array_lc(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_attr" value="kses_attr(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_bad_protocol" value="kses_bad_protocol(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_bad_protocol_once" value="kses_bad_protocol_once(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_bad_protocol_once2" value="kses_bad_protocol_once2(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_check_attr_val" value="kses_check_attr_val(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_decode_entities" value="kses_decode_entities(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_hair" value="kses_hair(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_hook" value="kses_hook(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_html_error" value="kses_html_error(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_js_entities" value="kses_js_entities(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_normalize_entities" value="kses_normalize_entities(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_normalize_entities2" value="kses_normalize_entities2(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_no_null" value="kses_no_null(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_split" value="kses_split(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_split2" value="kses_split2(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_stripslashes" value="kses_stripslashes(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_kses_version" value="kses_version(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_link_pages" value="link_pages(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_authors" value="list_authors(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_bookmarks" value="list_bookmarks(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_categories" value="list_categories(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_comments" value="list_comments(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_pages" value="list_pages(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_loginout" value="loginout()" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_login_form" value="login_form(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_login_url" value="login_url(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_logout" value="logout(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_logout_url" value="logout_url(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_lostpassword_url" value="lostpassword_url(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_mail" value="mail(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_make_link_relative" value="make_link_relative(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_meta" value="meta()" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_mime_type_icon" value="mime_type_icon(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_mkdir_p" value="mkdir_p(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_nav_menu" value="nav_menu(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_new_comment" value="new_comment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_new_user_notification" value="new_user_notification(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_next_scheduled" value="next_scheduled(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_nonce_ays" value="nonce_ays(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_nonce_field" value="nonce_field(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_nonce_url" value="nonce_url(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_notify_moderator" value="notify_moderator(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_notify_postauthor" value="notify_postauthor(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_original_referer_field" value="original_referer_field(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_page_menu" value="page_menu(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_parse_args" value="parse_args(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_publish_post" value="publish_post(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_redirect" value="redirect(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_referer_field" value="referer_field(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_register" value="register(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_rel_nofollow" value="rel_nofollow(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_remote_fopen" value="remote_fopen(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_reschedule_event" value="reschedule_event(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_reset_postdata" value="reset_postdata(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_reset_query" value="reset_query(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_richedit_pre" value="richedit_pre(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_salt" value="salt(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_schedule_event" value="schedule_event(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_schedule_single_event" value="schedule_single_event(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_auth_cookie" value="set_auth_cookie(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_comment_status" value="set_comment_status(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_current_user" value="set_current_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_object_terms" value="set_object_terms(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_post_categories" value="set_post_categories(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_post_tags" value="set_post_tags(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_set_post_terms" value="set_post_terms(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_shortlink_header" value="shortlink_header(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_shortlink_wp_head" value="shortlink_wp_head(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_signon" value="signon(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_specialchars" value="specialchars(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_tag_cloud" value="tag_cloud(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_terms_checklist" value="terms_checklist(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_throttle_comment_flood" value="throttle_comment_flood(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_title" value="title()" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_trim_excerpt" value="trim_excerpt(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_unschedule_event" value="unschedule_event(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_update_attachment_metadata" value="update_attachment_metadata(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_update_comment" value="update_comment(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_update_comment_count" value="update_comment_count(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_update_post" value="update_post(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_update_term" value="update_term(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_update_user" value="update_user(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_upload_bits" value="upload_bits(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_upload_dir" value="upload_dir(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_verify_nonce" value="verify_nonce(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpautop" value="autop(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_activate_signup" value="mu_activate_signup(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_admin_redirect_add_updated_param" value="mu_admin_redirect_add_updated_param(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_create_blog" value="mu_create_blog(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_create_user" value="mu_create_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_current_site" value="mu_current_site(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_delete_blog" value="mu_delete_blog(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_delete_user" value="mu_delete_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_get_blog_allowedthemes" value="mu_get_blog_allowedthemes(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_log_new_registrations" value="mu_log_new_registrations(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_signup_blog" value="mu_signup_blog(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_signup_blog_notification" value="mu_signup_blog_notification(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_signup_user" value="mu_signup_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_signup_user_notification" value="mu_signup_user_notification(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_update_blogs_date" value="mu_update_blogs_date(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_validate_blog_signup" value="mu_validate_blog_signup(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_validate_user_signup" value="mu_validate_user_signup(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_welcome_notification" value="mu_welcome_notification(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wpmu_welcome_user_notification" value="mu_welcome_user_notification(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wptexturize" value="texturize(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_ajaxurl" value="_ajaxurl(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_allow_comment" value="_allow_comment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_attachment_is_image" value="_attachment_is_image(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_category_checklist" value="_category_checklist(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_check_filetype" value="_check_filetype(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_check_for_changed_slugs" value="_check_for_changed_slugs(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_clearcookie" value="_clearcookie(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_clear_scheduled_hook" value="_clear_scheduled_hook(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_count_comments" value="_count_comments(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_count_posts" value="_count_posts(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_create_category" value="_create_category(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_create_nonce" value="_create_nonce(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_create_user" value="_create_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_cron" value="_cron(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_delete_attachment" value="_delete_attachment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_delete_category" value="_delete_category(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_delete_comment" value="_delete_comment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_delete_post" value="_delete_post(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_delete_term" value="_delete_term(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_delete_user" value="_delete_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_die" value="_die(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_dropdown_categories" value="_dropdown_categories(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_dropdown_pages" value="_dropdown_pages(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_dropdown_users" value="_dropdown_users(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_explain_nonce" value="_explain_nonce(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_filter_comment" value="_filter_comment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_filter_kses" value="_filter_kses(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_filter_nohtml_kses" value="_filter_nohtml_kses(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_filter_post_kses" value="_filter_post_kses(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_footer" value="_footer(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_generate_attachment_metadata" value="_generate_attachment_metadata(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_generate_tag_cloud" value="_generate_tag_cloud(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_archives" value="_get_archives(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_get_attachment_image" value="_get_attachment_image(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_attachment_image_src" value="_get_attachment_image_src(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_attachment_link" value="_get_attachment_link(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_attachment_metadata" value="_get_attachment_metadata(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_attachment_thumb_file" value="_get_attachment_thumb_file(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_attachment_thumb_url" value="_get_attachment_thumb_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_attachment_url" value="_get_attachment_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_comment_status" value="_get_comment_status(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_cookie_login" value="_get_cookie_login(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_current_commenter" value="_get_current_commenter(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_current_user" value="_get_current_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_http_headers" value="_get_http_headers(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_nav_menu_items" value="_get_nav_menu_items(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_object_terms" value="_get_object_terms(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_original_referer" value="_get_original_referer(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_post_categories" value="_get_post_categories(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_post_tags" value="_get_post_tags(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_post_terms" value="_get_post_terms(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_recent_posts" value="_get_recent_posts(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_referer" value="_get_referer(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_schedule" value="_get_schedule(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_schedules" value="_get_schedules(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_shortlink" value="_get_shortlink(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_get_single_post" value="_get_single_post(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_hash" value="_hash(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_head" value="_head(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_insert_attachment" value="_insert_attachment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_insert_category" value="_insert_category(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_insert_comment" value="_insert_comment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_insert_post" value="_insert_post(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_insert_term" value="_insert_term(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_insert_user" value="_insert_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_iso_descrambler" value="_iso_descrambler(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses" value="_kses(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_array_lc" value="_kses_array_lc(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_attr" value="_kses_attr(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_bad_protocol" value="_kses_bad_protocol(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_bad_protocol_once" value="_kses_bad_protocol_once(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_bad_protocol_once2" value="_kses_bad_protocol_once2(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_check_attr_val" value="_kses_check_attr_val(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_decode_entities" value="_kses_decode_entities(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_hair" value="_kses_hair(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_hook" value="_kses_hook(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_html_error" value="_kses_html_error(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_js_entities" value="_kses_js_entities(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_normalize_entities" value="_kses_normalize_entities(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_normalize_entities2" value="_kses_normalize_entities2(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_no_null" value="_kses_no_null(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_split" value="_kses_split(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_split2" value="_kses_split2(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_stripslashes" value="_kses_stripslashes(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_kses_version" value="_kses_version(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_link_pages" value="_link_pages(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_authors" value="_list_authors(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_bookmarks" value="_list_bookmarks(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_categories" value="_list_categories(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_comments" value="_list_comments(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_pages" value="_list_pages(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_loginout" value="_loginout()" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_login_form" value="_login_form(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_login_url" value="_login_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_logout" value="_logout(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_logout_url" value="_logout_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_lostpassword_url" value="_lostpassword_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_mail" value="_mail(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_make_link_relative" value="_make_link_relative(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_meta" value="_meta()" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_mime_type_icon" value="_mime_type_icon(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_mkdir_p" value="_mkdir_p(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_nav_menu" value="_nav_menu(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_new_comment" value="_new_comment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_new_user_notification" value="_new_user_notification(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_next_scheduled" value="_next_scheduled(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_nonce_ays" value="_nonce_ays(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_nonce_field" value="_nonce_field(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_nonce_url" value="_nonce_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_notify_moderator" value="_notify_moderator(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_notify_postauthor" value="_notify_postauthor(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_original_referer_field" value="_original_referer_field(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_page_menu" value="_page_menu(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_parse_args" value="_parse_args(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_publish_post" value="_publish_post(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_redirect" value="_redirect(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_referer_field" value="_referer_field(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_register" value="_register(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_rel_nofollow" value="_rel_nofollow(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_remote_fopen" value="_remote_fopen(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_reschedule_event" value="_reschedule_event(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_reset_postdata" value="_reset_postdata(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_reset_query" value="_reset_query(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_richedit_pre" value="_richedit_pre(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_salt" value="_salt(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_schedule_event" value="_schedule_event(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_schedule_single_event" value="_schedule_single_event(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_auth_cookie" value="_set_auth_cookie(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_comment_status" value="_set_comment_status(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_current_user" value="_set_current_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_object_terms" value="_set_object_terms(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_post_categories" value="_set_post_categories(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_post_tags" value="_set_post_tags(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_set_post_terms" value="_set_post_terms(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_shortlink_header" value="_shortlink_header(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_shortlink_wp_head" value="_shortlink_wp_head(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_signon" value="_signon(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_specialchars" value="_specialchars(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_tag_cloud" value="_tag_cloud(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_terms_checklist" value="_terms_checklist(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_throttle_comment_flood" value="_throttle_comment_flood(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_title" value="_title()" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_trim_excerpt" value="_trim_excerpt(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_unschedule_event" value="_unschedule_event(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_update_attachment_metadata" value="_update_attachment_metadata(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_update_comment" value="_update_comment(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_update_comment_count" value="_update_comment_count(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_update_post" value="_update_post(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_update_term" value="_update_term(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_update_user" value="_update_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_upload_bits" value="_upload_bits(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_upload_dir" value="_upload_dir(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_verify_nonce" value="_verify_nonce(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	
 	<menu pattern="xml" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
