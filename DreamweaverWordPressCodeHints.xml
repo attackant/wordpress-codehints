@@ -20,6 +20,7 @@
 
 	---------------------------------------------------------------
 	Changelog:
+		0.2.4 - bugfix for WP menus
 		0.2.3 - another bloginfo bugfix
 		0.2.2 - bloginfo bugfix, combined all "wp..." menus into one
 		0.2.1 - bugfix added missing DOCTYPE attributes to menu tags
