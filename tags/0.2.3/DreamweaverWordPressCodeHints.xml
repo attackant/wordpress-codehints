@@ -3,9 +3,9 @@
 	WordPress Code Hinting for Dreamweaver
 	
 	Version: 0.2.3
-	$Revision: 17 $
-	$Date: 2012-02-02 11:19:58 -0700 (Thu, 02 Feb 2012) $
-	$Id: DreamweaverWordPressCodeHints.xml 17 2012-02-02 18:19:58Z info@mindsharestudios.com $
+	$Revision$
+	$Date$
+	$Id$
 	Copyright: Mindshare Studios, Inc.
 	
 	Contributors:
@@ -15,7 +15,7 @@
 	
 	Project Home: http://code.google.com/p/wordpress-codehints/
 	Donate: http://mind.sh/are/donate/
-	$HeadURL: https://wordpress-codehints.googlecode.com/svn/trunk/DreamweaverWordPressCodeHints.xml $
+	$HeadURL$
 	Support/bugs: http://code.google.com/p/wordpress-codehints/issues/list
 
 	---------------------------------------------------------------
@@ -79,9 +79,9 @@
 	---------------------------------------------------------------
 -->
 <codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
-<menugroup MMString:name="codehints_wordpressapi" id="CodeHints_WordPressAPI" name="WordPress Code Hints ($Revision: 17 $)" enabled="true">
+<menugroup MMString:name="codehints_wordpressapi" id="CodeHints_WordPressAPI" name="WordPress Code Hints ($Revision$)" enabled="true">
 	<description>
-		<![CDATA[ WordPress Code Hinting for Dreamweaver ($Revision: 17 $) ]]>
+		<![CDATA[ WordPress Code Hinting for Dreamweaver ($Revision$) ]]>
 	</description>
 
 	<function pattern="addslashes_gpc($gpc)" DOCTYPES="PHP_MySQL" casesensitive="true" />
