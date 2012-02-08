@@ -1097,7 +1097,7 @@
 	<menu pattern="gen" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="generic_ping" value="eric_ping(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="get" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
+	<menu pattern="get" additionaldismisschars="ABCEFGHJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="get_404_template" value="_404_template(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_active_blog_for_user" value="_active_blog_for_user(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_adjacent_post" value="_adjacent_post(" icon="shared/mm/images/hintFunction.png" />
@@ -2255,7 +2255,7 @@
 		<menuitem label="_admin_menu" value="_admin_menu'" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
 
-	<menu pattern="add_filter('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHJKLMNOQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~">
+	<menu pattern="add_filter('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCEFGHJKLMNOQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~">
 		<menuitem label="404_template" value="404_template'" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="add_ping" value="add_ping'" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="admin_user_info_links" value="admin_user_info_links'" icon="shared/mm/images/hintFunction.png"/>
