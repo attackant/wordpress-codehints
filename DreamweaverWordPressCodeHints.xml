@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	
-	Version: 0.2.4
+	Version: 0.2.5
 	$Revision$
 	$Date$
 	$Id$
@@ -20,6 +20,7 @@
 
 	---------------------------------------------------------------
 	Changelog:
+		0.2.4 - bugfixes, added query_posts
 		0.2.4 - bugfix for WP menus
 		0.2.3 - another bloginfo bugfix
 		0.2.2 - bloginfo bugfix, combined all "wp..." menus into one
@@ -1712,7 +1713,7 @@
 		<menuitem label="wordpressmu_wp_mail_from" value="dpressmu_wp_mail_from(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	
-	<menu pattern="wp" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
+	<menu pattern="wp" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wpautop" value="autop(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wpmu_activate_signup" value="mu_activate_signup(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wpmu_admin_redirect_add_updated_param" value="mu_admin_redirect_add_updated_param(" icon="shared/mm/images/hintFunction.png" />
@@ -1818,12 +1819,12 @@
 		<menuitem label="wp_kses_split2" value="_kses_split2(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_kses_stripslashes" value="_kses_stripslashes(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_kses_version" value="_kses_version(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="wp_link_pages" value="_link_pages(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_authors" value="_list_authors(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_bookmarks" value="_list_bookmarks(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_categories" value="_list_categories(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_comments" value="_list_comments(" icon="shared/mm/images/hintFunction.png"/>
-		<menuitem label="wp_list_pages" value="_list_pages(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_link_pages" value="_link_pages('" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_authors" value="_list_authors('" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_bookmarks" value="_list_bookmarks('" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_categories" value="_list_categories('" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_comments" value="_list_comments('" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_list_pages" value="_list_pages('" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wp_loginout" value="_loginout()" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wp_login_form" value="_login_form(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_login_url" value="_login_url(" icon="shared/mm/images/hintFunction.png" />
@@ -1887,7 +1888,9 @@
 		<menuitem label="wp_upload_dir" value="_upload_dir(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_verify_nonce" value="_verify_nonce(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	
+	<menu pattern="que" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;<>?,./`~()" DOCTYPES="PHP_MySQL">
+		<menuitem label="query_posts" value="query_posts('" icon="shared/mm/images/hintFunction.png" />
+	</menu>
 	<menu pattern="xml" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="xmlrpc_getpostcategory" value="rpc_getpostcategory(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="xmlrpc_getposttitle" value="rpc_getposttitle(" icon="shared/mm/images/hintFunction.png" />
@@ -1979,7 +1982,7 @@
 		<menuitem label="version" value="version')" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wpurl" value="wpurl')" icon="shared/mm/images/hintFunction.png"/>
 	</menu>
-	<menu pattern="query_posts(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="query_posts('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="author=" value="author=" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="author_name=" value="author_name=" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="cat=" value="cat=" icon="shared/mm/images/hintFunction.png"/>
@@ -2015,7 +2018,7 @@
 		<menuitem label="weekly" value="weekly" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="yearly" value="yearly" icon="shared/mm/images/hintFunction.png"/>
 	</menu>	
-	<menu pattern="wp_list_pages(" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
+	<menu pattern="wp_list_pages('" DOCTYPES="PHP_MySQL" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()">
 		<menuitem label="child_of=" value="child_of=" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="date_format=" value="date_format='" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="depth=" value="depth=" icon="shared/mm/images/hintFunction.png"/>
