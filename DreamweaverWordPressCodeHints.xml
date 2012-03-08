@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	
-	Version: 0.2.5
+	Version: 0.2.5.1
 	$Revision$
 	$Date$
 	$Id$
@@ -20,6 +20,7 @@
 
 	---------------------------------------------------------------
 	Changelog:
+		0.2.5.1 - bugfix for untrailingslashit
 		0.2.4 - bugfixes, added query_posts
 		0.2.4 - bugfix for WP menus
 		0.2.3 - another bloginfo bugfix
@@ -1660,7 +1661,7 @@
 	<menu pattern="un" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="unregister_nav_menu" value="egister_nav_menu(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="unregister_setting" value="egister_setting(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="untrailingslashit" value="untrailingslashit(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="untrailingslashit" value="trailingslashit(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="upd" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="update_archived" value="ate_archived(" icon="shared/mm/images/hintFunction.png" />
