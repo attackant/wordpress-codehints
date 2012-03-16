@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	
-	Version: 0.2.5.1
+	Version: 0.2.5.2
 	$Revision$
 	$Date$
 	$Id$
@@ -20,6 +20,7 @@
 
 	---------------------------------------------------------------
 	Changelog:
+		0.2.5.2 - added rewind_posts, how could I have forgot!!!
 		0.2.5.1 - bugfix for untrailingslashit
 		0.2.4 - bugfixes, added query_posts
 		0.2.4 - bugfix for WP menus
@@ -572,6 +573,7 @@
 	<function pattern="remove_theme_mod($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="remove_theme_mods()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="remove_user_from_blog($user_id, $blog_id, $reassign)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="rewind_posts()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="require_if_theme_supports($feature, $include)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="restore_current_blog()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="revoke_super_admin($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -1528,6 +1530,9 @@
 	</menu>
 	<menu pattern="rev" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="revoke_super_admin" value="oke_super_admin(" icon="shared/mm/images/hintFunction.png" />
+	</menu>
+	<menu pattern="rew" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
+		<menuitem label="rewind_posts" value="ind_posts()" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="rss" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="rss_enclosure" value="_enclosure(" icon="shared/mm/images/hintFunction.png" />
