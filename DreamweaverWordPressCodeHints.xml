@@ -1895,7 +1895,7 @@
 		<menuitem label="wp_verify_nonce" value="_verify_nonce(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="que" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;<>?,./`~()" DOCTYPES="PHP_MySQL">
-		<menuitem label="query_posts" value="query_posts('" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="query_posts" value="ry_posts('" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="xml" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="xmlrpc_getpostcategory" value="rpc_getpostcategory(" icon="shared/mm/images/hintFunction.png" />
