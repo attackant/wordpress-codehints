@@ -2,7 +2,7 @@
 	---------------------------------------------------------------
 	WordPress Code Hinting for Dreamweaver
 	
-	Version: 0.2.5.2
+	Version: 1.0
 	$Revision$
 	$Date$
 	$Id$
@@ -20,6 +20,7 @@
 
 	---------------------------------------------------------------
 	Changelog:
+		1.0 - various minor fixes and first release as DW extension
 		0.2.5.2 - added rewind_posts, how could I have forgot!!!
 		0.2.5.1 - bugfix for untrailingslashit
 		0.2.4 - bugfixes, added query_posts
@@ -58,11 +59,7 @@
 		enabled, press OK to save your changes. That's it!
 
 	TODO:
-		- package as a Dreamweaver extension
-		- add extract_from_markers(); insert_with_markers();
-		fix value attributes
-		add secondary menus -> orderby, etc
-		add filters/hooks API?
+		- fix value attributes
 		- add variables from codex ($post, $etc)
 	
 	---------------------------------------------------------------
@@ -188,6 +185,8 @@
 	<function pattern="delete_get_calendar_cache()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="delete_option($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="delete_post_meta($post_id, $meta_key, $meta_value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_site_transient($transient)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="delete_transient($transient)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="delete_user_meta($user_id, $meta_key, $meta_value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="did_action($tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="discover_pingback_server_uri($url, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -236,7 +235,7 @@
 	<function pattern="get_404_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_active_blog_for_user($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_adjacent_post($in_same_cat, $excluded_categories, $previous)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_admin_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_admin_url($blog_id, $path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_admin_users_for_domain($sitedomain, $path)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_alloptions()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_all_category_ids()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -306,7 +305,7 @@
 	<function pattern="get_header_image()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_header_textcolor()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_home_template()" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="get_home_url()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_home_url($blog_id, $path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_id_from_blogname($name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_lastcommentmodified($timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_lastpostdate($timezone)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -364,6 +363,7 @@
 	<function pattern="get_sitestats()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_site_allowed_themes()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_site_option($option, $default , $use_cache)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_site_transient($transient)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_site_url($blog_id, $path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_space_allowed()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_stylesheet()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -391,6 +391,7 @@
 	<function pattern="get_theme_data($theme_filename)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_theme_mod($name, $default)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_theme_root()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_theme_roots()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_theme_root_uri()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_the_author()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_the_author_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -409,6 +410,7 @@
 	<function pattern="get_the_time($d, $post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_the_title($ID)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_the_title_rss()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="get_transient($transient)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_to_ping($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_upload_space_available()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="get_userdata($userid)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -429,6 +431,7 @@
 	<function pattern="has_nav_menu($location)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="has_post_thumbnail()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="has_tag($tag)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="has_term($term, $taxonomy, $post)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="have_comments()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="header_image()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="header_textcolor()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -514,6 +517,9 @@
 	<function pattern="newblog_notify_siteadmin($blog_id, $deprecated)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="newuser_notify_siteadmin($user_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="new_user_email_admin_notice()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="network_admin_url($path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="network_home_url($path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="network_site_url($path, $scheme)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="next_comments_link($label, $max_page)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="next_image_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="next_posts_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -528,6 +534,8 @@
 	<function pattern="pings_open($post_id)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="plugins_url($path, $plugin)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="plugin_basename($file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="plugin_dir_url($file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="plugin_dir_path($file)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="popuplinks($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="posts_nav_link()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="post_class()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -592,6 +600,8 @@
 	<function pattern="set_current_user($id, $name)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="set_post_type($post_id, $post_type)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="set_theme_mod($name, $value)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="set_site_transient($transient, $value, $expiration)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="set_transient($transient, $value, $expiration)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="shortcode_atts($pairs , $atts)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="shortcode_parse_atts($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="show_post_thumbnail_warning()" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -725,9 +735,13 @@
 	<function pattern="wp_delete_post($postid, $force_delete)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_delete_term($term_id, $taxonomy, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_delete_user($id, $reassign)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_dequeue_script($handle)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_deregister_script($handle)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_die($message, $title, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_dropdown_categories()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_dropdown_users()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_enqueue_script($handle,$src,$deps,$ver,$in_footer)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_enqueue_style($handle, $src, $deps, $ver, $media)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_explain_nonce($action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_filter_comment($commentdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_filter_kses($data)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -822,6 +836,7 @@
 	<function pattern="wp_redirect($location, $status)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_referer_field($echo)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_register()" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_register_script($handle, $src, $deps, $ver, $in_footer)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_rel_nofollow($text)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_remote_fopen($uri)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_reschedule_event($timestamp, $recurrence, $hook, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -855,7 +870,7 @@
 	<function pattern="wp_update_term($term_id, $taxonomy, $args)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_update_user($userdata)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_upload_bits($name, $deprecated, $bits, $time)" DOCTYPES="PHP_MySQL" casesensitive="true" />
-	<function pattern="wp_upload_dir($time)" DOCTYPES="PHP_MySQL" casesensitive="true" />
+	<function pattern="wp_upload_dir('yyyy/mm')" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="wp_verify_nonce($nonce, $action)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="xmlrpc_getpostcategory($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="xmlrpc_getposttitle($content)" DOCTYPES="PHP_MySQL" casesensitive="true" />
@@ -863,11 +878,17 @@
 	<function pattern="zeroise($number, $threshold)" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	<function pattern="_admin_notice_multisite_activate_plugins_page()" DOCTYPES="PHP_MySQL" casesensitive="true" />
 	
-	<menu pattern="ABS" DOCTYPES="PHP_MySQL" additionaldismisschars="BCDFGIJKNOQRSUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
-		<menuitem label="ABSPATH" value="PATH" icon="shared/mm/images/hintFunction.png"/>
+	<menu pattern="ABS" DOCTYPES="PHP_MySQL" additionaldismisschars="CDFGIJKNMOQRSUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
+		<menuitem label="ABSPATH" value="PATH" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="TEM" DOCTYPES="PHP_MySQL" additionaldismisschars="BCDFGIJKNOQRSUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
-		<menuitem label="TEMPLATEPATH" value="PLATEPATH" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="TEMPLATEPATH" value="PLATEPATH" icon="shared/mm/images/hintFunction.png" />
+	</menu>
+	<menu pattern="WP_" DOCTYPES="PHP_MySQL" additionaldismisschars="BDFGIJKNOQRSUVXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
+		<menuitem label="WP_CONTENT_DIR" value="CONTENT_DIR" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="WP_CONTENT_URL" value="CONTENT_URL" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="WP_PLUGIN_DIR" value="PLUGIN_DIR" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="WP_PLUGIN_URL" value="PLUGIN_URL" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	
 	<menu pattern="add" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
@@ -1028,6 +1049,8 @@
 		<menuitem label="delete_option" value="ete_option(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="delete_post_meta" value="ete_post_meta(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="delete_user_meta" value="ete_user_meta(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="delete_site_transient" value="ete_site_transient(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="delete_transient" value="ete_transient(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="did" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="did_action" value="_action(" icon="shared/mm/images/hintFunction.png" />
@@ -1075,6 +1098,9 @@
 		<menuitem label="esc_js" value="_js(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="esc_textarea" value="_textarea(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="esc_url" value="_url(" icon="shared/mm/images/hintFunction.png" />
+	</menu>
+		<menu pattern="ext" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
+		<menuitem label="extract_from_markers" value="ract_from_markers(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="fet" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="fetch_feed" value="ch_feed(" icon="shared/mm/images/hintFunction.png" />
@@ -1233,6 +1259,7 @@
 		<menuitem label="get_site_allowed_themes" value="_site_allowed_themes(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_site_option" value="_site_option(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_site_url" value="_site_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="get_site_transient" value="_site_transient(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_space_allowed" value="_space_allowed(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_stylesheet" value="_stylesheet(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_stylesheet_directory" value="_stylesheet_directory(" icon="shared/mm/images/hintFunction.png" />
@@ -1258,7 +1285,8 @@
 		<menuitem label="get_themes" value="_themes(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_theme_data" value="_theme_data(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_theme_mod" value="_theme_mod(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="get_theme_root" value="_theme_root(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="get_theme_root" value="_theme_root()" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="get_theme_roots" value="_theme_roots()" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_theme_root_uri" value="_theme_root_uri(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_the_author" value="_the_author(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_the_author_link" value="_the_author_link(" icon="shared/mm/images/hintFunction.png" />
@@ -1277,6 +1305,7 @@
 		<menuitem label="get_the_time" value="_the_time(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_the_title" value="_the_title(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_the_title_rss" value="_the_title_rss(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="get_transient" value="_transient(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_to_ping" value="_to_ping(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_upload_space_available" value="_upload_space_available(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="get_userdata" value="_userdata(" icon="shared/mm/images/hintFunction.png" />
@@ -1303,6 +1332,7 @@
 		<menuitem label="has_nav_menu" value="_nav_menu(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="has_post_thumbnail" value="_post_thumbnail(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="has_tag" value="_tag(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="has_term" value="_term(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="hav" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="have_comments" value="e_comments(" icon="shared/mm/images/hintFunction.png" />
@@ -1358,7 +1388,7 @@
 		<menuitem label="is_main_site" value="main_site(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_month" value="month(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_new_day" value="new_day(" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="is_page" value="paged(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="is_page" value="page(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_paged" value="paged(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_page_template" value="page_template(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="is_post_type_archive" value="post_type_archive(" icon="shared/mm/images/hintFunction.png" />
@@ -1428,6 +1458,11 @@
 	<menu pattern="mys" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="mysql2date" value="ql2date(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
+	<menu pattern="net" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
+		<menuitem label="network_admin_url" value="work_admin_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="network_home_url" value="work_home_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="network_site_url" value="work_site_url(" icon="shared/mm/images/hintFunction.png" />
+	</menu>
 	<menu pattern="new" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="newblog_notify_siteadmin" value="blog_notify_siteadmin(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="new_user_email_admin_notice" value="_user_email_admin_notice(" icon="shared/mm/images/hintFunction.png" />
@@ -1457,6 +1492,8 @@
 	<menu pattern="plu" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="plugins_url" value="gins_url(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="plugin_basename" value="gin_basename(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="plugin_dir_url" value="gin_dir_url(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="plugin_dir_path" value="gin_dir_path(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="pop" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="popuplinks" value="uplinks(" icon="shared/mm/images/hintFunction.png" />
@@ -1562,6 +1599,8 @@
 		<menuitem label="set_current_user" value="_current_user(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="set_post_type" value="_post_type(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="set_theme_mod" value="_theme_mod(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="set_site_transient" value="_site_transient(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="set_transient" value="_transient(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
 	<menu pattern="sho" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="shortcode_atts" value="rtcode_atts(" icon="shared/mm/images/hintFunction.png" />
@@ -1760,10 +1799,14 @@
 		<menuitem label="wp_delete_post" value="_delete_post(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_delete_term" value="_delete_term(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_delete_user" value="_delete_user(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_dequeue_script" value="_dequeue_script(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_deregister_script" value="_deregister_script(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_die" value="_die(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_dropdown_categories" value="_dropdown_categories(" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wp_dropdown_pages" value="_dropdown_pages(" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wp_dropdown_users" value="_dropdown_users(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_enqueue_script" value="_enqueue_script(" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="wp_enqueue_style" value="_enqueue_style(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_explain_nonce" value="_explain_nonce(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_filter_comment" value="_filter_comment(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_filter_kses" value="_filter_kses(" icon="shared/mm/images/hintFunction.png" />
@@ -1858,6 +1901,7 @@
 		<menuitem label="wp_redirect" value="_redirect(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_referer_field" value="_referer_field(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_register" value="_register(" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="wp_register_script" value="_register_script(" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="wp_rel_nofollow" value="_rel_nofollow(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_remote_fopen" value="_remote_fopen(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wp_reschedule_event" value="_reschedule_event(" icon="shared/mm/images/hintFunction.png" />
@@ -2065,7 +2109,7 @@
 		<menuitem label="ID" value="ID" icon="shared/mm/images/hintFunction.png"/>	
 		<menuitem label="menu_order" value="menu_order" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="modified" value="modified" icon="shared/mm/images/hintFunction.png"/>	
-		<menuitem label="name" value="menu_order" icon="shared/mm/images/hintFunction.png"/>
+		<menuitem label="name" value="name" icon="shared/mm/images/hintFunction.png"/>
 		<menuitem label="parent" value="parent" icon="shared/mm/images/hintFunction.png"/>	
 		<menuitem label="rand" value="rand" icon="shared/mm/images/hintFunction.png"/>	
 		<menuitem label="title" value="title" icon="shared/mm/images/hintFunction.png"/>	
