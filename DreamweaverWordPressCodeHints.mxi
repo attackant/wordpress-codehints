@@ -1,0 +1,45 @@
+﻿<macromedia-extension
+	 name="WordPress Code Hinting for Dreamweaver"
+	 version="1.0"
+	 type="codehint codesnippet"
+	 force-quit="true"
+	 locked="false"
+	 pkgtype="zxp">
+
+	<author name="Mindshare Sudios, Inc." />
+
+	<update url="http://wordpress-codehints.googlecode.com/svn/trunk/update-info.xml" />
+
+	<products>
+		<product name="Dreamweaver" version="8" primary="true" required="true" />
+	</products>
+
+	<description>
+	<![CDATA[
+	WordPress Code Hinting for Dreamweaver
+	]]>
+	</description>
+	
+	<ui-access>
+	<![CDATA[
+	In Dreamweaver go to <b>Edit > Preferences > Code Hints</b><br>
+	and check the box next to "WordPress Code Hints".
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	This program is free software, you can redistribute it and modify it under the terms of the GNU GPLv3:<br>
+http://www.gnu.org/licenses/gpl-3.0.txt
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="DreamweaverWordPressCodeHints.xml" destination="$dreamweaver/Configuration/CodeHints" file-type="ordinary" />
+	</files>
+
+	<signatures>
+		<signature name="WordPress Code Hinting for Dreamweaver" extensiontype="0" signed="true" certificateType="0" publisher="Mindshare Sudios Incorporated" />
+	</signatures>
+
+</macromedia-extension>

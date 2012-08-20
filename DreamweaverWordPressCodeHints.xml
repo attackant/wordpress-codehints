@@ -884,12 +884,6 @@
 	<menu pattern="TEM" DOCTYPES="PHP_MySQL" additionaldismisschars="BCDFGIJKNOQRSUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
 		<menuitem label="TEMPLATEPATH" value="PLATEPATH" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	<menu pattern="WP_" DOCTYPES="PHP_MySQL" additionaldismisschars="BDFGIJKNOQRSUVXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;'<>?,./`~">
-		<menuitem label="WP_CONTENT_DIR" value="CONTENT_DIR" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="WP_CONTENT_URL" value="CONTENT_URL" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="WP_PLUGIN_DIR" value="PLUGIN_DIR" icon="shared/mm/images/hintFunction.png" />
-		<menuitem label="WP_PLUGIN_URL" value="PLUGIN_URL" icon="shared/mm/images/hintFunction.png" />
-	</menu>
 	
 	<menu pattern="add" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="addslashes_gpc" value="slashes_gpc(" icon="shared/mm/images/hintFunction.png" />
@@ -1757,7 +1751,12 @@
 	<menu pattern="wor" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;'<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wordpressmu_wp_mail_from" value="dpressmu_wp_mail_from(" icon="shared/mm/images/hintFunction.png" />
 	</menu>
-	
+	<menu pattern="WP" additionaldismisschars="abcdefghijklmnopqrstuvwxyz!@#$%^&*-+={}|[]\:;<>?,./`~()" DOCTYPES="PHP_MySQL">	
+		<menuitem label="WP_CONTENT_DIR" value="_CONTENT_DIR" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="WP_CONTENT_URL" value="_CONTENT_URL" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="WP_PLUGIN_DIR" value="_PLUGIN_DIR" icon="shared/mm/images/hintFunction.png" />
+		<menuitem label="WP_PLUGIN_URL" value="_PLUGIN_URL" icon="shared/mm/images/hintFunction.png" />
+	</menu>
 	<menu pattern="wp" additionaldismisschars="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*-+={}|[]\:;<>?,./`~()" DOCTYPES="PHP_MySQL">
 		<menuitem label="wpautop" value="autop(" icon="shared/mm/images/hintFunction.png" />
 		<menuitem label="wpmu_activate_signup" value="mu_activate_signup(" icon="shared/mm/images/hintFunction.png" />
