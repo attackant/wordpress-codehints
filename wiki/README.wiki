@@ -5,7 +5,15 @@
 
 This file provides code hinting (auto-completion) for the WordPress API in Dreamweaver's code view.
 
-==Usage:==
+==Extension Manager Installation:==
+
+Simply download and double click the zxp file: 
+http://wordpress-codehints.googlecode.com/svn/trunk/DreamweaverWordPressCodeHints.zxp
+
+
+
+
+==Manual Installation:==
 
 ===Step 1===
 Copy this XML file into your Dreamweaver configuration
@@ -21,7 +29,7 @@ config folder.
 C:\Documents and Settings\<USERNAME>\Application Data\Adobe\Dreamweaver <VERSION>\Configuration\CodeHints
 }}}
 
-*Windows	Vista/7:*
+*Windows	Vista/7/8:*
 {{{
 C:\Users\<USERNAME>\AppData\Roaming\Adobe\Dreamweaver <VERSION>\<LANGUAGE>\Configuration\CodeHints
 }}}
@@ -35,9 +43,3 @@ C:\Users\<USERNAME>\AppData\Roaming\Adobe\Dreamweaver <VERSION>\<LANGUAGE>\Confi
 Start `Dreamweaver > go to Edit > Preferences > Code Hints` 
 and make sure the checkbox next to "WordPress Code Hints" is 
 enabled, press OK to save your changes. That's it!
-
-==TODO:==
-  * package as an installable Dreamweaver extension
-  * add extract_from_markers(); insert_with_markers();
-  * add secondary menus -> orderby, etc
-  * add variables/globals from codex ($post, $etc)
